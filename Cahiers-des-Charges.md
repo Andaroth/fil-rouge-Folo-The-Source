@@ -80,10 +80,5 @@
     * Onglets vidéo : avoir une vidéo sur la page, pouvoir switcher les vidéos, les recentrer sur la pages.
        
   
-## Ce que le client souhaite avoir :
-* Réalisé une One page qui tend vers une multipages tout en gardant le meme contenu et les memes fonctions.
-=> rendre le site pluis fluide, moins d'informations d'un coup, ajouter des sliders, car le site est trop aggressifs.
-* Réalisé plusieurs maquettes afin que le client puisse décider ce qui lui préfére
-  
 ---
 Retour sur la page [principal](README.md)
