@@ -10,7 +10,7 @@
 Dans une optique de simplifiction du développement nous avons réalisé un layout du 
 projet sous la forme d'[issues](https://github.com/FilRouge5/filrouge-Folo-The-Source-5/issues) 
 et d'un [tableau](https://github.com/FilRouge5/filrouge-Folo-The-Source-5/projects/1) des 
-choses à faire, faites et finis. Le tout se trouvant dans l'onglet projet du repository.
+choses à faire, faites et finis. Le tout se trouvant dans l'onglet projet et issues du repository.
 
 
 ## Phase 1 :
