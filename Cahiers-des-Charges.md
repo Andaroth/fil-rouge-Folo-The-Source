@@ -82,5 +82,5 @@
   => rendre le site pluis fluide, moins d'informations d'un coup, ajouter des sliders, car le site est trop aggressifs.
   * Réalisé plusieurs maquettes afin que le client puisse décider ce qui lui préfére
   
- 
+ ---
 Retour sur la page [principal](README.md)
