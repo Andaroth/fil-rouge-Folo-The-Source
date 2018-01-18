@@ -1,4 +1,4 @@
-# Interview avec le "Client":
+# Interview avec le client :
 
 ## Qui est le client ?
 N’Faly Kouyaté

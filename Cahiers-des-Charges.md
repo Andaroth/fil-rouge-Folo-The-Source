@@ -1,7 +1,6 @@
 # Cahier des charges :
 
 ## One-Page : 
-
 * Langue: 
   * ANGLAIS ONLY!!!
 
@@ -26,61 +25,53 @@
   * Presentation de plusieurs video => YouTube.
   * Presentation de plusieurs chansons => sound cloud.
   
- * Faire un calendrier des différents évenements. 
-   * Présentation du calendrier sur plusieurs années.
+* Faire un calendrier des différents évenements. 
+  * Présentation du calendrier sur plusieurs années.
   
- * Footer
-   * Liens vers les réseaux sociaux.
-   * Formulaire de contact Nom Prénom Mail et texte de présentation.
- 
- 
+* Footer
+  * Liens vers les réseaux sociaux.
+  * Formulaire de contact Nom Prénom Mail et texte de présentation.
 
 
 ## Blog : 
-  * Présentation des different articles sur une grille pas de chargement dans la navigation.
-  * Espace membre pour consulter le blog commenter et partager vers facebook. 
-  * Systeme de blog administrable par le client pour mettre photo , texte boutton like dislike.
+* Présentation des different articles sur une grille pas de chargement dans la navigation.
+* Espace membre pour consulter le blog commenter et partager vers facebook. 
+* Systeme de blog administrable par le client pour mettre photo , texte boutton like dislike.
   
   
 ## Platform musicale:
-  * Retrouver la plateform soundcloud sur la page multimédia.
-  * Retrouver la plateform Youtube sur la page multimédia.
-     
+* Retrouver la plateform soundcloud sur la page multimédia.
+* Retrouver la plateform Youtube sur la page multimédia.
  
  
 ## Espace Admin:
-  * Avoir un Espace où je peux créer mes article et les éditer
+* Avoir un Espace où je peux créer mes article et les éditer
  
  
 ## Graphique: Animation Couleur Polices ... : 
-  
-  * Reprendre le couleurs déjà présente sur le site, mais avec des couleurs moins aggressifs.
-  * Police Roboto et Railways.
-  * Garder les icones présentes sur le site.
-
+* Reprendre le couleurs déjà présente sur le site, mais avec des couleurs moins aggressifs.
+* Police Roboto et Railways.
+* Garder les icones présentes sur le site.
 
 
 ## Les données a affichés en global (Backend):
-    
-   * Espace utilisateur (contact) : 
-         * Recevoir les nouvelles actualités via l'adresse email.
-    
-   * Espace Administrateur (CMS):
-         * Gérer le blog : ajouter, supprimer et modifier les articles de son blog (sans que l'administateur ai besoin de toucher au code).
-         * Calendrier : ajouter, modifier, supprimer des événements.
-         * Heberger de la musique.
-         * Pas de vente sur le site.
-         * Ajouter une image music avec le bouton player.
-         * Nom de domaine : Folo The Source
-         * Onglets vidéo : avoir une vidéo sur la page, pouvoir switcher les vidéos, les recentrer sur la pages.
-         * Onglets photo: 
+* Espace utilisateur (contact) : 
+  * Recevoir les nouvelles actualités via l'adresse email.
+  * Espace Administrateur (CMS):
+    * Gérer le blog : ajouter, supprimer et modifier les articles de son blog (sans que l'administateur ai besoin de toucher au code).
+    * Calendrier : ajouter, modifier, supprimer des événements.
+    * Heberger de la musique.
+    * Pas de vente sur le site.
+    * Ajouter une image music avec le bouton player.
+    * Nom de domaine : Folo The Source
+    * Onglets vidéo : avoir une vidéo sur la page, pouvoir switcher les vidéos, les recentrer sur la pages.
+   * Onglets photo: 
         
   
-  ## Ce que le client souhaite avoir :
+## Ce que le client souhaite avoir :
+* Réalisé une One page qui tend vers une multipages tout en gardant le meme contenu et les memes fonctions.
+=> rendre le site pluis fluide, moins d'informations d'un coup, ajouter des sliders, car le site est trop aggressifs.
+* Réalisé plusieurs maquettes afin que le client puisse décider ce qui lui préfére
   
-  * Réalisé une One page qui tend vers une multipages tout en gardant le meme contenu et les memes fonctions.
-  => rendre le site pluis fluide, moins d'informations d'un coup, ajouter des sliders, car le site est trop aggressifs.
-  * Réalisé plusieurs maquettes afin que le client puisse décider ce qui lui préfére
-  
- ---
+---
 Retour sur la page [principal](README.md)

@@ -7,7 +7,10 @@
 
 
 ## Scrum Project :
-[Scrum project](https://github.com/FilRouge5/filrouge-Folo-The-Source-5/projects/1)
+Dans une optique de simplifiction du développement nous avons réalisé un layout du 
+projet sous la forme d'[issues](https://github.com/FilRouge5/filrouge-Folo-The-Source-5/issues) 
+et d'un [tableau](https://github.com/FilRouge5/filrouge-Folo-The-Source-5/projects/1) des 
+choses à faire, faites et finis. Le tout se trouvant dans l'onglet projet du repository.
 
 
 ## Phase 1 :
@@ -23,5 +26,6 @@ Avec l'aide de celle-ci nous avons rédigé le cahier des charges se trouvant da
 la section suivante.
 
 ### Cahier des Charges :
-Le [Cahier des charges](Cahiers-des-Charges.md) contient l'ensemble des demandes 
-du client et la directive générale à prendre pour le projet.
+Le [cahier des charges](Cahiers-des-Charges.md) contient l'ensemble des demandes 
+du client et la directive générale à prendre pour le projet. Pour toutes décisions 
+de développement il faudra s'y référer.
