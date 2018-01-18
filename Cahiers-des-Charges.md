@@ -65,8 +65,20 @@
     * Ajouter une image music avec le bouton player.
     * Nom de domaine : Folo The Source
     * Onglets vidéo : avoir une vidéo sur la page, pouvoir switcher les vidéos, les recentrer sur la pages.
-   * Onglets photo: 
-        
+  * Onglets photo: 
+    
+  * Espace utilisateur (contact) : 
+    * Recevoir les nouvelles actualités via l'adresse email.
+    
+  * Espace Administrateur (CMS):
+    * Gérer le blog : ajouter, supprimer et modifier les articles de son blog (sans que l'administateur ai besoin de toucher au code).
+    * Calendrier : ajouter, modifier, supprimer des événements.
+    * Heberger de la musique.
+    * Pas de vente sur le site.
+    * Ajouter une image music avec le bouton player.
+    * Nom de domaine : Folo The Source
+    * Onglets vidéo : avoir une vidéo sur la page, pouvoir switcher les vidéos, les recentrer sur la pages.
+       
   
 ## Ce que le client souhaite avoir :
 * Réalisé une One page qui tend vers une multipages tout en gardant le meme contenu et les memes fonctions.
