@@ -2,22 +2,22 @@
 
 ## One-Page : 
 
-* Header: 
+*Header: 
   * Image plein écran fournis par le client "Faire le bon choix pour le design".
-  * Une bare de navigation fixe pour pouvoir naviguer facilement vers les différentes sections.
+  * Une barre de navigation fixe pour pouvoir naviguer facilement vers les différentes sections.
   
 *Section à propos:
-  * Texte fournis sur le site quui présentera un peu le projet du client.
-  * Et une photo de présentation.
-  * Quelques animation pour que ce soit un peu plus agréable pour le visiteur. 
+  * Texte fournis sur le site qui présentera un peu le projet du client.
+  * Ajouter une photo de présentation.
+  * Quelques animations pour que ce soit un peu plus agréable pour le visiteur. 
 
 
 *Section de présentation du blog:
   * faire un bonne présentation pour donner envie au visiteur d'aller sur le site.
-  * lien subscribe to the blog.
+  * lien subscribe to the blog (inscription).
   
-*Section gallerie d'image:
-  * grille de 3 photos qui feront lien vers une gallerie.
+*Section galerie d'image:
+  * grille de 3 photos qui feront lien vers une galerie.
   
 *Section multimédia : 
   * Presentation de plusieurs video => YouTube.
@@ -26,7 +26,7 @@
  *Faire un calendrier des différents évenements. 
   * Présentation du calendrier sur un an.
   
- *Contact
+ *Footer
   * Liens vers les réseaux sociaux.
   * Formulaire de contact Nom Prénom Mail et texte de présentation.
  
