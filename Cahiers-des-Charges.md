@@ -83,5 +83,4 @@
   * Réalisé plusieurs maquettes afin que le client puisse décider ce qui lui préfére
   
  
-
-
+Retour sur la page [principal](README.md)
