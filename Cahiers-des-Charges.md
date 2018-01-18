@@ -24,11 +24,11 @@
   * Presentation de plusieurs chansons => sound cloud.
   
  * Faire un calendrier des différents évenements. 
-  * Présentation du calendrier sur un an.
+   * Présentation du calendrier sur plusieurs années.
   
  * Footer
-  * Liens vers les réseaux sociaux.
-  * Formulaire de contact Nom Prénom Mail et texte de présentation.
+   * Liens vers les réseaux sociaux.
+   * Formulaire de contact Nom Prénom Mail et texte de présentation.
  
  
 
