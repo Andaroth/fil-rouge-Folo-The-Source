@@ -45,14 +45,48 @@
      
  
  
- # Espace Admin:
+## Espace Admin:
   * Avoir un Espace où je peux créer mes article et les éditer
  
  
- # Animation Couleur Polices ... : 
+## Graphique: Animation Couleur Polices ... : 
   
-  * Reprendre le couleurs déjà présente sur le site.
+  * Reprendre le couleurs déjà présente sur le site, mais avec des couleurs moins aggressifs.
   * Police Roboto et Railways.
   * Garder les icones présentes sur le site.
+
+## Quelles informations doivent apparaitre en premier (one page) ?
+   * Section :
+        * à propos
+        * information
+        * contact
+        * barre de recherche
+   * Home page ? Le même que le site du client, mais avoir un accés plus facile: 
+        * Ajouter le contenu "qui sommes-nous" en quelques mots.
+        * Ajouter un grand texte de qu'on fait.
+
+## Les données a affichés en global (Backend):
+    
+   * Espace utilisateur (contact) : 
+         * Recevoir les nouvelles actualités via l'adresse email.
+    
+   * Espace Administrateur (CMS):
+         * Gérer le blog : ajouter, supprimer et modifier les articles de son blog (sans que l'administateur ai besoin de toucher au code).
+         * Calendrier : ajouter, modifier, supprimer des événements.
+         * Heberger de la musique.
+         * Pas de vente sur le site.
+         * Ajouter une image music avec le bouton player.
+         * Nom de domaine : Folo The Source
+         * Onglets vidéo : avoir une vidéo sur la page, pouvoir switcher les vidéos, les recentrer sur la pages.
+         * Onglets photo: 
+        
   
+  ## Ce que le client souhaite avoir :
   
+  * Réalisé une One page qui tend vers une multipages tout en gardant le meme contenu et les memes fonctions.
+  => rendre le site pluis fluide, moins d'informations d'un coup, ajouter des sliders, car le site est trop aggressifs.
+  * Réalisé plusieurs maquettes afin que le client puisse décider ce qui lui préfére
+  
+ 
+
+
