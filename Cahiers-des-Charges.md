@@ -2,6 +2,9 @@
 
 ## One-Page : 
 
+* Langue: 
+  * ANGLAIS ONLY!!!
+
 * Header: 
   * Image plein écran fournis par le client "Faire le bon choix pour le design".
   * Une barre de navigation fixe pour pouvoir naviguer facilement vers les différentes sections.
@@ -55,15 +58,7 @@
   * Police Roboto et Railways.
   * Garder les icones présentes sur le site.
 
-## Quelles informations doivent apparaitre en premier (one page) ?
-   * Section :
-        * à propos
-        * information
-        * contact
-        * barre de recherche
-   * Home page ? Le même que le site du client, mais avoir un accés plus facile: 
-        * Ajouter le contenu "qui sommes-nous" en quelques mots.
-        * Ajouter un grand texte de qu'on fait.
+
 
 ## Les données a affichés en global (Backend):
     
