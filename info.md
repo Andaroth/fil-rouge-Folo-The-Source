@@ -1,5 +1,5 @@
 
-## compte gmail =>
+## compte gmail 
 adresse : BECODEgroupe5@gmail.com
 mdp : BECODEgroupe
 
