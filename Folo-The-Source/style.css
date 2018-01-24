@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/* overflow:hidden; */
+}
+html, body {
+	height: 100%;
+}
+
+.firstPage {
+	background: url(background.jpeg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.secondPage {
+	background: url(background2.jpeg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.thirdPage {
+	background-color: rgb(40, 120, 211);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.fourthPage {
+	background-color: #9e2676;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.fifthPage {
+	background-color: rgb(40, 120, 211);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+h1 {
+	color: #FFFFFF;
+	font: 900 96px 'Lobster', cursive;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+	margin-bottom: 24px;
+}
+
