@@ -29,5 +29,3 @@ la section suivante.
 Le [cahier des charges](Cahiers-des-Charges.md) contient l'ensemble des demandes
 du client et la directive générale à prendre pour le projet. Pour toutes décisions
 de développement il faudra s'y référer.
-
-test
