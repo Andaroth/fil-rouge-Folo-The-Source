@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.7.6
 -- https://www.phpmyadmin.net/
 --
--- Hôte : localhost
--- Généré le :  jeu. 25 jan. 2018 à 13:57
--- Version du serveur :  10.1.30-MariaDB
--- Version de PHP :  7.2.1
+-- Hôte : localhost:3306
+-- Généré le :  jeu. 25 jan. 2018 à 21:33
+-- Version du serveur :  10.1.29-MariaDB
+-- Version de PHP :  7.0.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `FoloTheSource`
+-- Base de données :  `id4419678_folothesource`
 --
 
 -- --------------------------------------------------------
