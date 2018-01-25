@@ -1,3 +1,19 @@
+<?php
+
+/* Model/Manager */
+require 'NewsletterManager.php';
+if (!isset($newsletterManager)){
+  $newsletterManager = new NewsletterManager;
+}
+
+/* Add to the DB */
+if (isset($_POST['newsletterSubmit'])){
+  $email = $_POST['email'];
+  $newsletterManager->addSubscriber($email);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +23,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="app.js">
     </script>
 </head>
 
@@ -29,12 +44,12 @@
 	<div class="fifthPage">
 			<div id="form-main">
 					<div id="form-div">
-					  <form class="form" id="form1">					
+					  <form class="form" id="form1" action="" method="post">
 						<p class="email">
-						  <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+						  <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
 						</p>
 						<div class="submit">
-						  <input type="submit" value="Subscribe Now" id="button-blue"/>
+						  <input name="newsletterSubmit" type="submit" value="Subscribe Now" id="button-blue"/>
 					  </form>
 					</div>
     </div>
