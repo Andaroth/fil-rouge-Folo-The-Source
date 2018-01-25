@@ -13,6 +13,7 @@ if (isset($_POST['newsletterSubmit'])){
 }
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,45 +23,36 @@ if (isset($_POST['newsletterSubmit'])){
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
+    </script>
 </head>
 
 <body>
-<div class="firstPage">
-    <div class="container">
-        <h1>Folo the source</h1></br>
-        <h2>Coming Soon</h2>
-        <div class="aboutMe">
-            <text id="Description">The winner of ‘Talent of Guinea’ (Paris, March 2015, Best group) and again nominated for the Guinean
-                Music Awards (November 2015), N’Faly Kouyaté, is a multi-talented artist coming from a deeply
-                traditional background. Recently nominated as ‘Ambassador of the Intercultural Dialogue’ in Belgium,
-                winner of the ‘Guinée Music Award’ 2012, nominated for the ‘Octaves de la Musique 2012’ in Belgium,
-                nominated as ‘Talent Acoustique’ on TV5 Monde, he released his new album ‘CHANGE’ on 5th August 2015 in
-                London.
-            </text>
+    <div class="firstPage">
+        <div class="container">
+            <h1>Folo the source</h1>
         </div>
-        <img alt="Arrow" id="bot" src="109681%20(1).svg"/>
     </div>
-</div>
-
-<div class="fifthPage">
-    <div id="form-main">
-        <div id="form-div">
-            <form class="form" id="form1">
-                <p class="email">
-                    <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email"
-                           placeholder="Email"/>
-                </p>
-                <div class="submit">
-                    <input name="newsletterSubmit" type="submit" value="Subscribe Now" id="button-blue"/>
-            </form>
-        </div>
+    <div class="secondPage">
+        <h1>About Us</h1>
+	</div>
+	<div class="thirdPage">
+        <h1>Videos</h1>
+	</div>
+	<div class="fourthPage">
+        <h1>Photos</h1>
+	</div>
+	<div class="fifthPage">
+			<div id="form-main">
+					<div id="form-div">
+					  <form class="form" id="form1" action="" method="post">
+						<p class="email">
+						  <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+						</p>
+						<div class="submit">
+						  <input name="newsletterSubmit" type="submit" value="Subscribe Now" id="button-blue"/>
+					  </form>
+					</div>
     </div>
 </body>
-<script src="app.js"></script>
-<script src="./upup.min.js"></script>
-<script>
-    UpUp.start({
-        'content-url': 'offline.html'
-    });
-</script>
+
 </html>
