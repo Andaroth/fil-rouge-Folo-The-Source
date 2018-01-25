@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 
-
 #form-main{
 	width:100%;
 	float:left;
@@ -28,6 +27,13 @@
  	 -moz-border-radius: 7px;
  	 -webkit-border-radius: 7px;
   
+}
+
+#bot{
+	position: absolute;
+	width: 60px;
+	top: 800px;
+	transform: rotate(90deg);
 }
 
 .feedback-input {
