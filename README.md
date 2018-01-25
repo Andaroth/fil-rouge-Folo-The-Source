@@ -22,12 +22,12 @@ __________
 **Personne de contact : Weichuan Tran**
 
 ### Interview avec le client :
-Voici un résumé de l'[interview effectué avec le client](Interview-Client.md).
+Voici un résumé de l'[interview effectué avec le client](Markdown/Interview-Client.md).
 Avec l'aide de celle-ci nous avons rédigé le cahier des charges se trouvant dans
 la section suivante.
 
 ### Cahier des Charges :
-Le [cahier des charges](Cahiers-des-Charges.md) contient l'ensemble des demandes
+Le [cahier des charges](Markdown/Cahiers-des-Charges.md) contient l'ensemble des demandes
 du client et la directive générale à prendre pour le projet. Pour toutes décisions
 de développement il faudra s'y référer.
 
@@ -38,4 +38,4 @@ __________
 * Caroline Bieuvelet & Mehdi Trabelsi : backend + déploiement
 
 ### Hébergeur : hostinger.fr
-[infos déploiement](hostinger.md) 
+[infos déploiement](Markdown/hostinger.md) 
