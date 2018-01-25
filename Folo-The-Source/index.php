@@ -23,7 +23,7 @@ if (isset($_POST['newsletterSubmit'])){
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
-    </script>
+    <script src="app.js"></script>
 </head>
 
 <body>
