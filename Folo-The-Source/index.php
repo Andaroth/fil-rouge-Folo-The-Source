@@ -1,3 +1,18 @@
+<?php
+
+/* Model/Manager */
+require 'NewsletterManager.php';
+if (!isset($newsletterManager)){
+  $newsletterManager = new NewsletterManager;
+}
+
+/* Add to the DB */
+if (isset($_POST['newsletterSubmit'])){
+  $email = $_POST['email'];
+  $newsletterManager->addSubscriber($email);
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,12 +22,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
-    <link rel="manifest" href="./Favicon/manifest.json">
-    <meta name="theme-color" content="#7CBFE0"/>
-    <meta name="Description" content="Length: 1 pages"/>
 </head>
 
 <body>
@@ -38,11 +47,11 @@
         <div id="form-div">
             <form class="form" id="form1">
                 <p class="email">
-                    <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email"
+                    <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email"
                            placeholder="Email"/>
                 </p>
                 <div class="submit">
-                    <input type="submit" value="Subscribe Now" id="button-blue"/>
+                    <input name="newsletterSubmit" type="submit" value="Subscribe Now" id="button-blue"/>
             </form>
         </div>
     </div>
