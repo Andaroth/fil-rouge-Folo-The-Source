@@ -2,15 +2,12 @@
 
 /* Model/Manager */
 require 'NewsletterManager.php';
-if (!isset($newsletterManager)) {
-    $newsletterManager = new NewsletterManager;
-}
-
+$newsletterManager = new NewsletterManager;
 /* Add to the DB */
 if (isset($_POST['newsletterSubmit'])){
     $email = $_POST['email'];
     if (preg_match('#^[\w.-]+@[\w.-]+\.[a-z]{2,6}$#i', $email)){
-        $newsletterManager->addSubscriber($email)
+        $newsletterManager->addSubscriber($email);
     } else {
         echo "Email incorrect";
     }
