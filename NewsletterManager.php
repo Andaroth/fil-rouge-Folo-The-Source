@@ -6,7 +6,7 @@ class NewsletterManager
 
   function __construct(){
     /* --------------------------------------- A PARAMETRER --------------------------------- */
-    $db = new \PDO('mysql:host=localhost;dbname=FoloTheSource;charset=utf8', 'root', 'root');
+    $db = new \PDO('mysql:host=localhost;dbname=id4419678_folothesource;charset=utf8', 'id4419678_becodegroupe5', 'BECODEgroupe5');
     /*----------------------------------------------------------------------------------------*/
     $db->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
     $this->db = $db;

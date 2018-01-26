@@ -75,14 +75,12 @@
 /* Icons ---------------------------------- */
 
 #email {
-    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
     background-size: 30px 30px;
     background-position: 11px 8px;
     background-repeat: no-repeat;
 }
 
 #email:focus {
-    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
     background-size: 30px 30px;
     background-position: 11px 8px;
     background-repeat: no-repeat;
@@ -221,13 +219,16 @@ h1 {
     font: 900 96px 'Lobster', cursive;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
     margin-bottom: 24px;
+    margin-top: -140px;
 }
 
 h2 {
     color: #FFFFFF;
     font: 900 40px 'Lobster', cursive;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
-    margin-bottom: 24px;
+    margin-bottom: 70px;
+    
+    
 }
 
 text {

@@ -12,6 +12,7 @@ projet sous la forme d'[issues](https://github.com/FilRouge5/filrouge-Folo-The-S
 et d'un [tableau](https://github.com/FilRouge5/filrouge-Folo-The-Source-5/projects/1) des
 choses à faire, faites et finis. Le tout se trouvant dans l'onglet projet et issues du repository.
 
+__________
 
 ## Phase 1 :
 * Marvin Louis
@@ -21,11 +22,35 @@ choses à faire, faites et finis. Le tout se trouvant dans l'onglet projet et is
 **Personne de contact : Weichuan Tran**
 
 ### Interview avec le client :
-Voici un résumé de l'[interview effectué avec le client](Interview-Client.md).
+Voici un résumé de l'[interview effectué avec le client](Markdown/Interview-Client.md).
 Avec l'aide de celle-ci nous avons rédigé le cahier des charges se trouvant dans
 la section suivante.
 
 ### Cahier des Charges :
-Le [cahier des charges](Cahiers-des-Charges.md) contient l'ensemble des demandes
+Le [cahier des charges](Markdown/Cahiers-des-Charges.md) contient l'ensemble des demandes
 du client et la directive générale à prendre pour le projet. Pour toutes décisions
 de développement il faudra s'y référer.
+
+__________
+
+## Phase 2 :
+* Thomas Point & Gaëtan Ribonnet : maquettes + frontend + PWA
+* Caroline Bieuvelet & Mehdi Trabelsi : backend + déploiement
+
+* Lien GoogleAnalytics a placer dans le header:
+
+<pre><code><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113125974-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113125974-1');
+</script>
+</code></pre>
+
+* Lien maquette Figma : https://www.figma.com/file/EcZTkf3tjHEuMWNr7ZHiWqg2/comming-soon
+
+### Hébergeur : hostinger.fr
+[infos déploiement](Markdown/hostinger.md) 
