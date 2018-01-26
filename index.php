@@ -34,6 +34,15 @@ if (isset($_POST['newsletterSubmit'])){
     <link rel="manifest" href="./Favicon/manifest.json">
     <meta name="theme-color" content="#7CBFE0"/>
     <meta name="Description" content="Length: 1 pages"/>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113125974-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113125974-1');
+    </script>
 </head>
 
 <body>
