@@ -50,5 +50,7 @@ __________
 </script>
 </code></pre>
 
+* Lien maquette Figma : https://www.figma.com/file/EcZTkf3tjHEuMWNr7ZHiWqg2/comming-soon
+
 ### Hébergeur : hostinger.fr
 [infos déploiement](Markdown/hostinger.md) 
