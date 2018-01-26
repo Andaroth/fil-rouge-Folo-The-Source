@@ -2,15 +2,19 @@
 
 /* Model/Manager */
 require 'NewsletterManager.php';
-if (!isset($newsletterManager)){
-  $newsletterManager = new NewsletterManager;
+if (!isset($newsletterManager)) {
+    $newsletterManager = new NewsletterManager;
 }
 
 /* Add to the DB */
 if (isset($_POST['newsletterSubmit'])){
-  $email = $_POST['email'];
-  $newsletterManager->addSubscriber($email);
-}
+    $email = $_POST['email'];
+    if (preg_match('#^[\w.-]+@[\w.-]+\.[a-z]{2,6}$#i', $email)){
+        $newsletterManager->addSubscriber($email)
+    } else {
+        echo "Email incorrect";
+    }
+};
 
 ?>
 
@@ -36,17 +40,18 @@ if (isset($_POST['newsletterSubmit'])){
 <div class="firstPage">
     <div class="container">
         <h1>Folo the source</h1></br>
-        <h2>Coming Soon</h2>
+        <h2>Coming Soon, subscribe to our newsletter</h2>
         <div class="aboutMe">
-            <text id="Description">The winner of ‘Talent of Guinea’ (Paris, March 2015, Best group) and again nominated for the Guinean
+            <text id="Description">The winner of ‘Talent of Guinea’ (Paris, March 2015, Best group) and again nominated
+                for the Guinean
                 Music Awards (November 2015), N’Faly Kouyaté, is a multi-talented artist coming from a deeply
                 traditional background. Recently nominated as ‘Ambassador of the Intercultural Dialogue’ in Belgium,
                 winner of the ‘Guinée Music Award’ 2012, nominated for the ‘Octaves de la Musique 2012’ in Belgium,
                 nominated as ‘Talent Acoustique’ on TV5 Monde, he released his new album ‘CHANGE’ on 5th August 2015 in
                 London.
             </text>
+            <img alt="Arrow" id="bot" src="109681%20(1).svg"/>
         </div>
-        <img alt="Arrow" id="bot" src="109681%20(1).svg"/>
     </div>
 </div>
 
