@@ -122,10 +122,19 @@
         </div>
       </div>
     </div>
-    <div class="row">
-
+    <div class="row purple darken-4 pt-25 pb-25 mb-0 orange-text">
+      <div class="container">
+        <div class="col s6">
+          <img src="./img/enfant.jpg" class="responsive-img" alt="We need water">
+        </div>
+        <div class="col s6">
+          <h2>Our Mission</h2>
+          <p class="flow-text">Our mission is, to bring clean water and good working wells to Manfara, what means for people there, to stay healthy and alive.</p>
+        </div>
+      </div>
     </div>
     <div class="row multimedia">
+      <h2 class="center-align">Our medias</h2>
       <div class="col s12 m4">
         <div class="row">
           <div class="card">
@@ -173,17 +182,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="row purple darken-4 pt-25 pb-25 mb-0 orange-text">
-    <div class="container">
-      <div class="col s6">
-        <img src="./img/enfant.jpg" class="responsive-img" alt="We need water">
-      </div>
-      <div class="col s6">
-        <h2>Our Mission</h2>
-        <p class="flow-text">Our mission is, to bring clean water and good working wells to Manfara, what means for people there, to stay healthy and alive.</p>
       </div>
     </div>
   </div>
