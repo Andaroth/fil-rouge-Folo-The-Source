@@ -1,11 +1,14 @@
-nav ul a:hover { background-color: rgba(255,255,255,.5); }
+/* Reusable */
 .h-200 { height: 200px !important; }
 .h-300 { height: 300px !important; }
 .p-25 { padding: 25px; }
 .pt-25 { padding-top: 25px; }
 .mb-25 { margin-bottom: 25px; }
 .mb-0 { margin-bottom: 0; }
+/* Multiple */
 .textarea1 { min-height: 100px !important; }
-.toast { border: 2px solid white; }
 input[type=text], textarea { background-color: #fff !important; }
+/* Forcing */
+nav ul a:hover { background-color: rgba(255,255,255,.5); }
+.toast { border: 2px solid white; }
 .hidden { display: none !important; }
