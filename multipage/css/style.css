@@ -15,7 +15,7 @@
 input[type=text], textarea { background-color: #fff !important; }
 /* Forcing */
 body { margin-top: 64px; }
-nav { position: fixed; top: 0; z-index: 255; }
+nav { position: fixed !important; top: 0; z-index: 255; }
 nav ul a:hover { background-color: rgba(255,255,255,.5); }
 .homepcard { height: 300px; overflow: hidden; }
 .toast { border: 2px solid white; }
