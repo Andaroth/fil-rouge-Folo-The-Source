@@ -1,4 +1,5 @@
 /* Reusable */
+.justify { text-align: justify; }
 .h-200 { height: 200px !important; }
 .h-300 { height: 300px !important; }
 .p-25 { padding: 25px; }
