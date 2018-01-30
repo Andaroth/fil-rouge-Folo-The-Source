@@ -43,9 +43,9 @@ if ( // Si le formulaire est reçu
         <div class="card-content">
           <h3>Where to find me</h3>
           <ul>
-            <li><i class="material-icons prefix">place</i> Rue Victor Rauter, 143<br>&horbar; 1070 BRUSSELS</li>
-            <li><i class="material-icons prefix">phone</i> (+32) 2 318 55 81</li>
-            <li><i class="material-icons prefix">mail</i> contact@nfalykouyate.com</li>
+            <li><i class="material-icons">place</i> Rue Victor Rauter, 143<br>&horbar; 1070 BRUSSELS</li>
+            <li><i class="material-icons">phone</i> (+32) 2 318 55 81</li>
+            <li><i class="material-icons">mail</i> contact@nfalykouyate.com</li>
           </ul>
         </div>
         <div class="card-action">
