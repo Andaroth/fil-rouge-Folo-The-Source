@@ -4,8 +4,8 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#">Home</a></li>
         <li><a href="#">Events</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="gallery.php">Gallery</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
     </div>
   </nav>
