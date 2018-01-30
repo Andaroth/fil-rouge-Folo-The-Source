@@ -12,7 +12,7 @@
 
 <?php include('topbar.php'); ?>
 
-<div class="orange darken-4">
+<div class="orange darken-4 pt-25 pb-25">
 	<div class="container">
 
       <div class="col s12 m7">
@@ -143,8 +143,6 @@
       
   </div>
 </div>
-
-<div><br/><br/></div>
 	
 <?php include('footer.php'); ?>
 

@@ -13,8 +13,8 @@
   <?php include('topbar.php'); ?>
   <div class="container media">
     <div class="row images">
-      <h2>Visit of Guinea</h2>
-      <div id="gallerycarousel" class="carousel">
+      <div id="gallerycarousel" class="carousel carousel-slider">
+        <h2>Visit of Guinea</h2>
         <a class="carousel-item" href="#one!"><img src="./img/inauguration.jpg" alt="well's inauguration"></a>
         <a class="carousel-item" href="#two!"><img src="./img/inauguration2.jpg" alt="well's inauguration"></a>
         <a class="carousel-item" href="#three!"><img src="./img/needwater.jpg" alt="people needs water"></a>

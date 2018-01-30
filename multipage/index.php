@@ -50,7 +50,7 @@
       </div>
     </div>
   </div>
-  <div class="row orange darken-3 pt-25 pb-25">
+  <div class="row orange darken-3 pt-25 pb-25 mb-0">
     <div class="container">
       <h2>Further events</h2>
       <div class="col s12 l3">
