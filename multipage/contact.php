@@ -6,15 +6,16 @@ if ( // Si le formulaire est reçu
 ) 
 {
   $getpost = true; // Activer un booléen et ensuite : 
+  $mail = filter_var($_POST['mail'], FILTER_SANITIZE_EMAIL); // Nettoyer l'adresse des caract. interdits
   if (!filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)) {
     // Si le mail n'est pas valid
     $mailsent = false;
     $feedback = "<span>Your mail is not valid...</span>";
   } else {
     // Si la page contient les informations du POST && si elles sont valides
-    $name = htmlentities(addslashes($_POST['name']));
-    $mail = htmlentities(addslashes($_POST['mail']));
-    $msg = htmlentities(addslashes($_POST['message']));
+    $name = htmlentities(addslashes($_POST['name'])); // ++ de sécurité anti inject
+    $mail = htmlentities(addslashes($mail)); 
+    $msg = htmlentities(addslashes(filter_var($_POST['mail'], FILTER_SANITIZE_EMAIL)));
     // Indiquer envoyer le mail
     $mailsent = true;
     $feedback = "<span>Your message is in the sendbox, waiting for this script to work</span>";
@@ -37,31 +38,29 @@ if ( // Si le formulaire est reçu
   </div>
   <div class="row container">
     <h2>Contact me</h2>
-    <div class="valign-wrapper">
-      <div class="card col s6">
-        <address>
-          <div class="card-content">
-            <h3>Where to find me</h3>
-            <ul>
-              <li><i class="material-icons prefix">place</i> Rue Victor Rauter, 143<br>&horbar; 1070 BRUSSELS</li>
-              <li><i class="material-icons prefix">phone</i> (+32) 2 318 55 81</li>
-              <li><i class="material-icons prefix">mail</i> contact@nfalykouyate.com</li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <a href="#mailing">Send me a mail</a>
-          </div>
-        </address>
-      </div>
-      <div class="col s6">
-        <iframe
-         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.852813597105!2d4.306633515930707!3d50.83389016754236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c41e7805c859%3A0xbef1db11ef462c98!2sRue+Victor+Rauter+143%2C+1070+Anderlecht!5e0!3m2!1sfr!2sbe!4v1517236104791" 
-         width="100%" 
-         height="315"
-         frameborder="0" 
-         style="border:0"> 
-        </iframe>
-      </div>
+    <div class="card col s12 m6">
+      <address>
+        <div class="card-content">
+          <h3>Where to find me</h3>
+          <ul>
+            <li><i class="material-icons prefix">place</i> Rue Victor Rauter, 143<br>&horbar; 1070 BRUSSELS</li>
+            <li><i class="material-icons prefix">phone</i> (+32) 2 318 55 81</li>
+            <li><i class="material-icons prefix">mail</i> contact@nfalykouyate.com</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          <a href="#mailing">Send me a mail</a>
+        </div>
+      </address>
+    </div>
+    <div class="col s12 m6">
+      <iframe
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.852813597105!2d4.306633515930707!3d50.83389016754236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c41e7805c859%3A0xbef1db11ef462c98!2sRue+Victor+Rauter+143%2C+1070+Anderlecht!5e0!3m2!1sfr!2sbe!4v1517236104791" 
+       width="100%" 
+       height="315"
+       frameborder="0" 
+       style="border:0"> 
+      </iframe>
     </div>
   </div>
   <div class="parallax-container h-300">
@@ -71,13 +70,13 @@ if ( // Si le formulaire est reçu
     <form class="container" action="contact.php" method="post">
       <h2>Drop me a line</h2>
       <div class="row">
-        <div class="col s6">
+        <div class="col s12 m6">
           <label for="name">Name</label>
           <input placeholder="Name" id="name" name="name" type="text" class="validate">
           <label for="mail">Mail</label>
           <input placeholder="Mail" id="mail" name="mail" type="text" class="validate">
         </div>
-        <div class="col s6">
+        <div class="col s12 m6">
           <label for="message">Your message</label>
           <textarea id="message" name="message" class="materialize-textarea textarea1"></textarea>
         </div>
