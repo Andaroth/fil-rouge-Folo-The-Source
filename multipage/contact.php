@@ -1,25 +1,25 @@
 <?php
-  if (
-    (isset($_POST['name'])) &&
-    (isset($_POST['mail'])) &&
-    (isset($_POST['textarea1'])) &&
-  ) 
-  {
-    if (filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)) {
-      // Si la page contient les informations du GET && si elles sont valides
-      $name = htmlentities(addslashes($_POST['name']));
-      $mail = htmlentities(addslashes($_POST['mail']));
-      $msg = htmlentities(addslashes($_POST['message']));
-
-      $mailsent = true;
-      $feedback = "Your message is in the sendbox, waiting for this script to work";
-    } else {
-      // if mail not valid
-      $msg = htmlentities($_POST['message']);
-      $mailsent = false;
-      $feedback = "There is an with your message...";
-    }
-  } 
+if ( // Si le formulaire est reçu
+  (isset($_POST['name'])) &&
+  (isset($_POST['mail'])) &&
+  (isset($_POST['message']))
+) 
+{
+  $getpost = true; // Activer un booléen et ensuite : 
+  if (!filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)) {
+    // Si le mail n'est pas valid
+    $mailsent = false;
+    $feedback = "<span>Your mail is not valid...</span>";
+  } else {
+    // Si la page contient les informations du POST && si elles sont valides
+    $name = htmlentities(addslashes($_POST['name']));
+    $mail = htmlentities(addslashes($_POST['mail']));
+    $msg = htmlentities(addslashes($_POST['message']));
+    // Indiquer envoyer le mail
+    $mailsent = true;
+    $feedback = "<span>Your message is in the sendbox, waiting for this script to work</span>";
+  }
+} // endif
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,9 +31,9 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="purple darken-4">
-  <?php include('topbar.php'); ?>  
+  <?php include('topbar.php'); ?>
   <div class="parallax-container h-200">
-    <div class="parallax"><img src="https://lorempixel.com/250/250/nature/5" alt="Nature 5"></div>
+    <div class="parallax"><img src="./img/inauguration.jpg" alt="Nature 5"></div>
   </div>
   <div class="row container">
     <h2>Contact me</h2>
@@ -65,25 +65,25 @@
     </div>
   </div>
   <div class="parallax-container h-300">
-    <div class="parallax"><img src="https://lorempixel.com/250/250/nature/4" alt="Nature 4"></div>
+    <div class="parallax"><img src="./img/presentation.jpg" alt="Nature 4"></div>
   </div>
   <div id="mailing" class="mailing orange darken-4 pt-25 mb-0 row scrollspy">
-    <form class="container" action="./contact.php" method="post">
+    <form class="container" action="contact.php" method="post">
       <h2>Drop me a line</h2>
       <div class="row">
         <div class="col s6">
-          <label for="first_name">Name</label>
-          <input placeholder="Name" id="name" type="text" class="validate">
-          <label for="first_name">Mail</label>
-          <input placeholder="Mail" id="Mail" type="text" class="validate">
+          <label for="name">Name</label>
+          <input placeholder="Name" id="name" name="name" type="text" class="validate">
+          <label for="mail">Mail</label>
+          <input placeholder="Mail" id="mail" name="mail" type="text" class="validate">
         </div>
         <div class="col s6">
-          <label for="textarea1">Your message</label>
-          <textarea id="textarea1" id="message" class="materialize-textarea textarea1"></textarea>
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" class="materialize-textarea textarea1"></textarea>
         </div>
       </div>
       <div class="row center-align">
-        <a class="center-align waves-effect waves-light btn deep-orange darken-4">Send</a>
+        <input type="submit" class="center-align waves-effect waves-light btn deep-orange darken-4">
       </div>
     </form>
   </div>
@@ -91,5 +91,7 @@
   <script src="./js/jquery.js"></script>
   <script src="./js/materialize.js"></script>
   <script src="./js/app.js"></script>
+  <?php // Si le form a avait été reçu
+  if (isset($getpost)) { echo ('<script>Materialize.toast(\''.$feedback.'\',2500)</script>'); } ?>
 </body>
 </html>
