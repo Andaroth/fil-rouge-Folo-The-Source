@@ -10,7 +10,15 @@
 </head>
 <body>
   <?php include('topbar.php'); ?> 
-  
+  <div class="row">
+    
+  </div>
+  <div class="row">
+    
+  </div>
+  <div class="row">
+    
+  </div>
   <?php include('footer.php'); ?> 
   <script src="./js/jquery.js"></script>
   <script src="./js/materialize.js"></script>

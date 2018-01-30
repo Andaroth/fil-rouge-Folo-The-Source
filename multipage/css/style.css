@@ -1,4 +1,6 @@
-nav { margin-bottom: 25px; }
-input[type=text], textarea { background-color: #fff !important; }
 nav ul a:hover { background-color: rgba(255,255,255,.5); }
-.mailing { margin-bottom: 0;}
+.pt-25 { padding-top: 25px; }
+.mb-25 { margin-bottom: 25px; }
+.mb-0 { margin-bottom: 0; }
+.textarea1 { min-height: 100px !important; }
+input[type=text], textarea { background-color: #fff !important; }
