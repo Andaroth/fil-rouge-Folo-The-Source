@@ -1,1 +1,4 @@
+nav { margin-bottom: 25px; }
 input[type=text], textarea { background-color: #fff !important; }
+nav ul a:hover { background-color: rgba(255,255,255,.5); }
+.mailing { margin-bottom: 0;}
