@@ -10,8 +10,11 @@
 </head>
 <body class="purple darken-4">
   <?php include('topbar.php'); ?>  
+  <div class="row parallax-container valign-wrapper">
+    <h2 class="center-align">Contact me</h2>
+    <div class="parallax"><img src="https://lorempixel.com/250/250/nature/5" alt="Nature 5"></div>
+  </div>
   <div class="row container">
-    <h2>Contact me</h2>
     <div class="valign-wrapper">
       <div class="card col s6">
         <address>
@@ -40,7 +43,7 @@
     </div>
   </div>
   <div class="parallax-container h-200">
-    <div class="parallax"><img src="https://lorempixel.com/250/250/nature/4" alt="Nature 3"></div>
+    <div class="parallax"><img src="https://lorempixel.com/250/250/nature/4" alt="Nature 4"></div>
   </div>
   <div id="mailing" class="mailing orange darken-4 pt-25 mb-0 row">
     <form class="container" action="" method="get">
