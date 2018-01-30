@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<?php include('topbar.php'); ?>
+
 <div class="orange darken-4">
 	<div class="container">
 
@@ -140,13 +142,15 @@
       </div>
     </div>
   </div>
+</div>
 
-  <div><br/><br/></div>
+<div><br/><br/></div>
 	
+<?php include('footer.php'); ?>
 
-  <script src="./js/jquery.js"></script>
-  <script src="./js/materialize.js"></script>
-  <script src="./js/app.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/materialize.js"></script>
+<script src="./js/app.js"></script>
 
 </body>
 </html>

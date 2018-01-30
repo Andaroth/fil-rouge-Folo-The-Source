@@ -3,9 +3,3 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.scrollspy').scrollSpy();
 });
-
-
-// Media Pop-Up Image
-	  $(document).ready(function(){
-    $('.materialboxed').materialbox();
-  });
