@@ -1,4 +1,26 @@
-<!DOCTYPE html>
+<?php
+  if (
+    (isset($_POST['name'])) &&
+    (isset($_POST['mail'])) &&
+    (isset($_POST['textarea1'])) &&
+  ) 
+  {
+    if (filter_var($_POST['mail'], FILTER_VALIDATE_EMAIL)) {
+      // Si la page contient les informations du GET && si elles sont valides
+      $name = htmlentities(addslashes($_POST['name']));
+      $mail = htmlentities(addslashes($_POST['mail']));
+      $msg = htmlentities(addslashes($_POST['message']));
+
+      $mailsent = true;
+      $feedback = "Your message is in the sendbox, waiting for this script to work";
+    } else {
+      // if mail not valid
+      $msg = htmlentities($_POST['message']);
+      $mailsent = false;
+      $feedback = "There is an with your message...";
+    }
+  } 
+?><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,11 +32,11 @@
 </head>
 <body class="purple darken-4">
   <?php include('topbar.php'); ?>  
-  <div class="row parallax-container valign-wrapper">
-    <h2 class="center-align">Contact me</h2>
+  <div class="parallax-container h-200">
     <div class="parallax"><img src="https://lorempixel.com/250/250/nature/5" alt="Nature 5"></div>
   </div>
   <div class="row container">
+    <h2>Contact me</h2>
     <div class="valign-wrapper">
       <div class="card col s6">
         <address>
@@ -42,11 +64,11 @@
       </div>
     </div>
   </div>
-  <div class="parallax-container h-200">
+  <div class="parallax-container h-300">
     <div class="parallax"><img src="https://lorempixel.com/250/250/nature/4" alt="Nature 4"></div>
   </div>
-  <div id="mailing" class="mailing orange darken-4 pt-25 mb-0 row">
-    <form class="container" action="" method="get">
+  <div id="mailing" class="mailing orange darken-4 pt-25 mb-0 row scrollspy">
+    <form class="container" action="./contact.php" method="post">
       <h2>Drop me a line</h2>
       <div class="row">
         <div class="col s6">
