@@ -1,0 +1,17 @@
+img {
+  width: 300px;
+  height: 400px;
+}
+
+.page-footer {
+  height: 180px;
+}
+
+#icon img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer-copyright {
+  bottom: auto;
+}
