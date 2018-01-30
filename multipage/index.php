@@ -19,7 +19,7 @@
 
     </div>
 
-  <div class="row">
+  <div class="row blue-grey p-25 mb-0">
     <div class="container">
       <div class="col s12 m4 center-align">
         <i class="material-icons medium">flag</i>

@@ -8,6 +8,7 @@
 .mt-25 { margin-top: 25px; }
 .mb-25 { margin-bottom: 25px; }
 .mb-0 { margin-bottom: 0; }
+.mw-270 { width: 270px !important; }
 /* Multiple */
 .textarea1 { min-height: 100px !important; }
 input[type=text], textarea { background-color: #fff !important; }
