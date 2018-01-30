@@ -10,22 +10,21 @@
 </head>
 <body class="purple darken-4">
   <?php include('topbar.php'); ?>  
-  <div class="row">
-    
-  </div>
-  <div class="row pt-25">
-    <div class="container valign-wrapper">
+  <div class="row container">
+    <h2>Contact me</h2>
+    <div class="valign-wrapper">
       <div class="card col s6">
         <address>
           <div class="card-content">
-            <h3>Contact me</h3>
+            <h3>Where to find me</h3>
             <ul>
               <li><i class="material-icons prefix">place</i> Rue Victor Rauter, 143<br>&horbar; 1070 BRUSSELS</li>
               <li><i class="material-icons prefix">phone</i> (+32) 2 318 55 81</li>
+              <li><i class="material-icons prefix">mail</i> contact@nfalykouyate.com</li>
             </ul>
           </div>
           <div class="card-action">
-            <a href="mailto:contact@nfalykouyate.com">Send me a mail</a>
+            <a href="#mailing">Send me a mail</a>
           </div>
         </address>
       </div>
@@ -40,8 +39,12 @@
       </div>
     </div>
   </div>
+  <div class="parallax-container h-200">
+    <div class="parallax"><img src="https://lorempixel.com/250/250/nature/4" alt="Nature 3"></div>
+  </div>
   <div id="mailing" class="mailing orange darken-4 pt-25 mb-0 row">
     <form class="container" action="" method="get">
+      <h2>Drop me a line</h2>
       <div class="row">
         <div class="col s6">
           <label for="first_name">Name</label>
