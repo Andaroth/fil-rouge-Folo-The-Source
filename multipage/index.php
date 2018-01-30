@@ -15,17 +15,17 @@
   </div>
   <div class="row">
     <div class="container">
-      <div class="col s1 m4 center-align">
+      <div class="col s12 m4 center-align">
         <i class="material-icons medium">flag</i>
         <h3>Country</h3>
         <p>Guinea with it's varied landscape is located in West Africa. The rivers Niger, Gambia and Bafing arise in this Country. In the highlands grows the rainforest.</p>
       </div>
-      <div class="col s1 m4 center-align">
+      <div class="col s12 m4 center-align">
         <i class="material-icons medium">local_florist</i>
         <h3>Culture</h3>
         <p>The culture of Africa is varied and manifold. It is a product of the diverse populations that today inhabit the continent of Africa and the African Diaspora.</p>
       </div>
-      <div class="col s1 m4 center-align">
+      <div class="col s12 m4 center-align">
         <i class="material-icons medium">spa</i>
         <h3>Tradition</h3>
         <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
@@ -33,7 +33,7 @@
     </div>
   </div>
   <div class="row purple darken-4 pt-25 pb-25 mb-0 orange-text">
-    <div class="container center-align">
+    <div class="container">
       <div class="col s6">
         <img src="./img/well.jpg" class="responsive-img" alt="We need water">
       </div>
