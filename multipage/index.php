@@ -183,67 +183,6 @@
       </div>
     </div>
   </div>
-  <div class="row multimedia">
-    <div class="col s12 m4">
-      <div class="row">
-        <div class="card">
-          <div class="card-image">
-            <img height="300" src="./img/needwater.jpg" alt="people needs water">
-            <span class="card-title"  style="color:#fb8c00">Pictures</span>
-          </div>
-          <div class="card-content">
-            <p>Our actions in Guinea in pictures.</p>
-          </div>
-          <div class="card-action">
-            <a href="gallery.php">More Pictures</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m4">
-      <div class="row">
-        <div class="card">
-          <div class="card-image">
-            <img height="300" src="./img/nfalykouyate.jpg" alt="nfalykouyate singer">
-            <span class="card-title"  style="color:#fb8c00">Musics</span>
-          </div>
-          <div class="card-content">
-            <p>Some music from our Youtube account.</p>
-          </div>
-          <div class="card-action">
-            <a href="gallery.php">More Musics</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m4">
-      <div class="row">
-        <div class="card">
-          <div class="card-image">
-            <img height="300" src="./img/inauguration.jpg" alt="well's inauguration">
-            <span class="card-title"  style="color:#fb8c00">Videos</span>
-          </div>
-          <div class="card-content">
-            <p>What we have done in Guinea.</p>
-          </div>
-          <div class="card-action">
-            <a href="gallery.php">More Videos</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row purple darken-4 pt-25 pb-25 mb-0 orange-text">
-    <div class="container">
-      <div class="col s6">
-        <img src="./img/enfant.jpg" class="responsive-img" alt="We need water">
-      </div>
-      <div class="col s6">
-        <h2>Our Mission</h2>
-        <p class="flow-text">Our mission is, to bring clean water and good working wells to Manfara, what means for people there, to stay healthy and alive.</p>
-      </div>
-    </div>
-  </div>
   <?php include('footer.php'); ?>
   <script src="./js/jquery.js"></script>
   <script src="./js/materialize.js"></script>
