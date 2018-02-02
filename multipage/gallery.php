@@ -11,6 +11,9 @@
 </head>
 <body class="purple darken-4">
   <?php include('topbar.php'); ?>
+
+<div></div>
+
   <div id="gallerycarousel" class="carousel carousel-slider minh-33vh">
     <h2>Our actions in Guinea</h2>
     <a class="carousel-item minh-33vh" href="#one!"><img class="minh-33vh" src="./img/inauguration.jpg" alt="well's inauguration"></a>
