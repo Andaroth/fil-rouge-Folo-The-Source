@@ -16,11 +16,11 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4->enter($__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
+        $__internal_7106fc32fcbe5d9bccbfe6b2e7fd9fe36e0a6a54b7f6b48608437e25f208a807 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7106fc32fcbe5d9bccbfe6b2e7fd9fe36e0a6a54b7f6b48608437e25f208a807->enter($__internal_7106fc32fcbe5d9bccbfe6b2e7fd9fe36e0a6a54b7f6b48608437e25f208a807_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
 
-        $__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88->enter($__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
+        $__internal_4399634aab5c1dd5ea34d7cf459b5475d1bd8c5476b4e39235e5fb438d2c6e5f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4399634aab5c1dd5ea34d7cf459b5475d1bd8c5476b4e39235e5fb438d2c6e5f->enter($__internal_4399634aab5c1dd5ea34d7cf459b5475d1bd8c5476b4e39235e5fb438d2c6e5f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
 
         // line 1
         $this->loadTemplate("OChomePageBundle:Default:begin.html.twig", "OChomePageBundle:Default:gallery.html.twig", 1)->display($context);
@@ -33,24 +33,24 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
         // line 40
         $this->loadTemplate("OChomePageBundle:Default:end.html.twig", "OChomePageBundle:Default:gallery.html.twig", 40)->display($context);
         
-        $__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4->leave($__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4_prof);
+        $__internal_7106fc32fcbe5d9bccbfe6b2e7fd9fe36e0a6a54b7f6b48608437e25f208a807->leave($__internal_7106fc32fcbe5d9bccbfe6b2e7fd9fe36e0a6a54b7f6b48608437e25f208a807_prof);
 
         
-        $__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88->leave($__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88_prof);
+        $__internal_4399634aab5c1dd5ea34d7cf459b5475d1bd8c5476b4e39235e5fb438d2c6e5f->leave($__internal_4399634aab5c1dd5ea34d7cf459b5475d1bd8c5476b4e39235e5fb438d2c6e5f_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d->enter($__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_9ff0bb6fefaca8e99a4719634eaec6abc141050a4351371f76cc7022b3ef3c34 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_9ff0bb6fefaca8e99a4719634eaec6abc141050a4351371f76cc7022b3ef3c34->enter($__internal_9ff0bb6fefaca8e99a4719634eaec6abc141050a4351371f76cc7022b3ef3c34_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa->enter($__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_f648f5fd9300fd683c90c2ed57ca117200927aaa784ca941981db3a6c8c7827f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f648f5fd9300fd683c90c2ed57ca117200927aaa784ca941981db3a6c8c7827f->enter($__internal_f648f5fd9300fd683c90c2ed57ca117200927aaa784ca941981db3a6c8c7827f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "  <div class=\"row\">
+        echo "  <div class=\"row media\">
     <div id=\"gallerycarousel\" class=\"carousel carousel-slider minh-33vh\">
       <h2>Our actions in Guinea</h2>
       <a class=\"carousel-item minh-33vh\" href=\"#one!\"><img class=\"minh-33vh\" src=\"";
@@ -95,28 +95,28 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
     <div class=\"row videos\">
       <h2>What we have done - Videos</h2>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
     </div>
     <div class=\"row musics\">
       <h2>Our Music</h2>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 ";
         
-        $__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa->leave($__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa_prof);
+        $__internal_f648f5fd9300fd683c90c2ed57ca117200927aaa784ca941981db3a6c8c7827f->leave($__internal_f648f5fd9300fd683c90c2ed57ca117200927aaa784ca941981db3a6c8c7827f_prof);
 
         
-        $__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d->leave($__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d_prof);
+        $__internal_9ff0bb6fefaca8e99a4719634eaec6abc141050a4351371f76cc7022b3ef3c34->leave($__internal_9ff0bb6fefaca8e99a4719634eaec6abc141050a4351371f76cc7022b3ef3c34_prof);
 
     }
 
@@ -148,7 +148,7 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
         return new Twig_Source("{% include 'OChomePageBundle:Default:begin.html.twig' %}
 {% include 'OChomePageBundle:Default:topbar.html.twig' %}
 {% block body %}
-  <div class=\"row\">
+  <div class=\"row media\">
     <div id=\"gallerycarousel\" class=\"carousel carousel-slider minh-33vh\">
       <h2>Our actions in Guinea</h2>
       <a class=\"carousel-item minh-33vh\" href=\"#one!\"><img class=\"minh-33vh\" src=\"{{ asset('img/inauguration.jpg') }}\" alt=\"well's inauguration\"></a>
@@ -166,19 +166,19 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
     <div class=\"row videos\">
       <h2>What we have done - Videos</h2>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
     </div>
     <div class=\"row musics\">
       <h2>Our Music</h2>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
       <div class=\"col s12 m6\">
-        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+        <iframe src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
       </div>
     </div>
   </div>
