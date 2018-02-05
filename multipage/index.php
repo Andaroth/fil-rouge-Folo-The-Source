@@ -15,9 +15,7 @@
       <img class="circle responsive-img" src="./img/portrait.jpg" width="200">
       <h1 class="Heading h1">N’Faly Kouyaté</h1>
       <p class="flow-text justify">The winner of ‘Talent of Guinea’ (Paris, March 2015, Best group) and again nominated for the Guinean Music Awards (November 2015), N’Faly Kouyaté, is a multi-talented artist coming from a deeply traditional background. Recently nominated as ‘Ambassador of the Intercultural Dialogue’ in Belgium, winner of the ‘Guinée Music Award’ 2012, nominated for the ‘Octaves de la Musique 2012’ in Belgium, nominated as ‘Talent Acoustique’ on TV5 Monde, he released his new album ‘CHANGE’ on 5th August 2015 in London.</p>
-
     </div>
-
     <div class="row blue-grey p-25 mb-0">
       <div class="container">
         <div class="col s12 m4 center-align">
@@ -185,7 +183,7 @@
       </div>
     </div>
   </div>
-  <?php include('footer.php'); ?> 
+  <?php include('footer.php'); ?>
   <script src="./js/jquery.js"></script>
   <script src="./js/materialize.js"></script>
   <script src="./js/app.js"></script>

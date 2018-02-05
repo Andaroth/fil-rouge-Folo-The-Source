@@ -53,4 +53,15 @@ __________
 * Lien maquette Figma : https://www.figma.com/file/EcZTkf3tjHEuMWNr7ZHiWqg2/comming-soon
 
 ### Hébergeur : hostinger.fr
-[infos déploiement](Markdown/hostinger.md) 
+[infos déploiement](Markdown/hostinger.md)
+
+__________
+
+## Phase 3 :
+* Laureen Bataille : events + missions
+* Axel Fiolle : index + contact page
+* Ilias Chergui : multimedia + gallery + maquette
+
+à completer
+
+__________
