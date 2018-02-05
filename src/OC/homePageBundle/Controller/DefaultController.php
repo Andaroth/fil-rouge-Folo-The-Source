@@ -16,6 +16,7 @@ class DefaultController extends Controller
       case 'contact': $res = "contact"; break;
       case 'events': $res = "events"; break;
       case 'gallery': $res = "gallery"; break;
+      case 'upload': $res = "upload"; break;
       default: $res = "404"; break;
     } // switch end
     return $this->render('OChomePageBundle:Default:'.$res.'.html.twig');
