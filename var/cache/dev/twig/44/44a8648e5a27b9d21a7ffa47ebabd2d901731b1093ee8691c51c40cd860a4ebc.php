@@ -16,11 +16,11 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8df440236b1a64953f719f86bfaf9a2b6606f28a245c60f076f5274a76766a7c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8df440236b1a64953f719f86bfaf9a2b6606f28a245c60f076f5274a76766a7c->enter($__internal_8df440236b1a64953f719f86bfaf9a2b6606f28a245c60f076f5274a76766a7c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
+        $__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4->enter($__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
 
-        $__internal_388eefc29c07128b48014647525e9d53373ca05b26269f39f8302f4581d5f093 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_388eefc29c07128b48014647525e9d53373ca05b26269f39f8302f4581d5f093->enter($__internal_388eefc29c07128b48014647525e9d53373ca05b26269f39f8302f4581d5f093_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
+        $__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88->enter($__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:gallery.html.twig"));
 
         // line 1
         $this->loadTemplate("OChomePageBundle:Default:begin.html.twig", "OChomePageBundle:Default:gallery.html.twig", 1)->display($context);
@@ -28,26 +28,26 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
         $this->loadTemplate("OChomePageBundle:Default:topbar.html.twig", "OChomePageBundle:Default:gallery.html.twig", 2)->display($context);
         // line 3
         $this->displayBlock('body', $context, $blocks);
-        // line 31
-        $this->loadTemplate("OChomePageBundle:Default:footer.html.twig", "OChomePageBundle:Default:gallery.html.twig", 31)->display($context);
-        // line 32
-        $this->loadTemplate("OChomePageBundle:Default:end.html.twig", "OChomePageBundle:Default:gallery.html.twig", 32)->display($context);
+        // line 39
+        $this->loadTemplate("OChomePageBundle:Default:footer.html.twig", "OChomePageBundle:Default:gallery.html.twig", 39)->display($context);
+        // line 40
+        $this->loadTemplate("OChomePageBundle:Default:end.html.twig", "OChomePageBundle:Default:gallery.html.twig", 40)->display($context);
         
-        $__internal_8df440236b1a64953f719f86bfaf9a2b6606f28a245c60f076f5274a76766a7c->leave($__internal_8df440236b1a64953f719f86bfaf9a2b6606f28a245c60f076f5274a76766a7c_prof);
+        $__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4->leave($__internal_a4c0cf310cad0221ff4069b1873772c56ab978cd07ae71095e20399eb2bab6a4_prof);
 
         
-        $__internal_388eefc29c07128b48014647525e9d53373ca05b26269f39f8302f4581d5f093->leave($__internal_388eefc29c07128b48014647525e9d53373ca05b26269f39f8302f4581d5f093_prof);
+        $__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88->leave($__internal_dc56b0dfd910be63e3a387c42a47a0757626c51c15603f14c58dfa78400b4e88_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_ee11a4b245911ef4579845f5ae91e8181fd89069cc341e628944bda2380018df = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ee11a4b245911ef4579845f5ae91e8181fd89069cc341e628944bda2380018df->enter($__internal_ee11a4b245911ef4579845f5ae91e8181fd89069cc341e628944bda2380018df_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d->enter($__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_7c9242d65ffe52ee19eb5754cc9a53f7166b76c31774450a8ddca40fa2ff5ca6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7c9242d65ffe52ee19eb5754cc9a53f7166b76c31774450a8ddca40fa2ff5ca6->enter($__internal_7c9242d65ffe52ee19eb5754cc9a53f7166b76c31774450a8ddca40fa2ff5ca6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa->enter($__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "  <div class=\"row\">
@@ -94,21 +94,29 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
   <div class=\"container media\">
     <div class=\"row videos\">
       <h2>What we have done - Videos</h2>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
     </div>
     <div class=\"row musics\">
       <h2>Our Music</h2>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 ";
         
-        $__internal_7c9242d65ffe52ee19eb5754cc9a53f7166b76c31774450a8ddca40fa2ff5ca6->leave($__internal_7c9242d65ffe52ee19eb5754cc9a53f7166b76c31774450a8ddca40fa2ff5ca6_prof);
+        $__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa->leave($__internal_79657cd3ddf5cc8bbcb4c98148446246347113b336e21e17ccf87a1aa55d44fa_prof);
 
         
-        $__internal_ee11a4b245911ef4579845f5ae91e8181fd89069cc341e628944bda2380018df->leave($__internal_ee11a4b245911ef4579845f5ae91e8181fd89069cc341e628944bda2380018df_prof);
+        $__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d->leave($__internal_46fc366d5e671f09ffbb8870b1dee85b8b2c7a1b2a88f6792d26a8a41bf4334d_prof);
 
     }
 
@@ -124,7 +132,7 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
 
     public function getDebugInfo()
     {
-        return array (  90 => 15,  86 => 14,  82 => 13,  78 => 12,  74 => 11,  70 => 10,  66 => 9,  62 => 8,  58 => 7,  53 => 4,  44 => 3,  34 => 32,  32 => 31,  30 => 3,  28 => 2,  26 => 1,);
+        return array (  90 => 15,  86 => 14,  82 => 13,  78 => 12,  74 => 11,  70 => 10,  66 => 9,  62 => 8,  58 => 7,  53 => 4,  44 => 3,  34 => 40,  32 => 39,  30 => 3,  28 => 2,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -157,18 +165,26 @@ class __TwigTemplate_24d4676fc165a8c8ab2ff23e965048217358b650806ea69749bc0a92a25
   <div class=\"container media\">
     <div class=\"row videos\">
       <h2>What we have done - Videos</h2>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/5-txLZLQFyQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/9VK2J6fuPr8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
     </div>
     <div class=\"row musics\">
       <h2>Our Music</h2>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
-      <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/Y5xmB1U_zoM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
+      <div class=\"col s12 m6\">
+        <iframe width=\"500\" height=\"300\" src=\"https://www.youtube.com/embed/GG7ZeCG-uJk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 {% endblock %}
 {% include 'OChomePageBundle:Default:footer.html.twig' %}
 {% include 'OChomePageBundle:Default:end.html.twig' %}
-", "OChomePageBundle:Default:gallery.html.twig", "C:\\wamp64\\www\\Symfony\\src\\OC\\homePageBundle/Resources/views/Default/gallery.html.twig");
+", "OChomePageBundle:Default:gallery.html.twig", "C:\\wamp64\\www\\filrouge\\src\\OC\\homePageBundle/Resources/views/Default/gallery.html.twig");
     }
 }

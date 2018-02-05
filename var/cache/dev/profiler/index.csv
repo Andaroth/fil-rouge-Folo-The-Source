@@ -882,3 +882,4 @@ b4a9c6,::1,GET,http://localhost/Symfony/web/app_dev.php/img/inauguration.jpg,151
 f695af,::1,GET,http://localhost/Symfony/web/app_dev.php/img/presentation.jpg,1517822141,,404
 172776,::1,GET,http://localhost/filrouge/web/app_dev.php/,1517824926,,200
 c16b04,::1,GET,http://localhost/filrouge/web/app_dev.php/,1517825907,,200
+779d95,::1,GET,http://localhost/filrouge/web/app_dev.php/gallery,1517827302,,200

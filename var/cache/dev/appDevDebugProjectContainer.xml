@@ -604,7 +604,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>6p4A-hOOuJ1d5zNnpacWDF</argument>
+      <argument>PUu9bttWKiAQCH53aMh2vY</argument>
       <argument>C:\wamp64\www\filrouge\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -614,7 +614,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>6p4A-hOOuJ1d5zNnpacWDF</argument>
+      <argument>PUu9bttWKiAQCH53aMh2vY</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -2156,12 +2156,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>5a782b97161462.15543148</argument>
+      <argument>5a7834dfcf0005.41749820</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.main" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>5a782b97161462.15543148</argument>
+      <argument>5a7834dfcf0005.41749820</argument>
     </service>
     <service id="security.exception_listener.main" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -3356,7 +3356,7 @@
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>i6qFng85KU</argument>
       <argument>0</argument>
-      <argument>6p4A-hOOuJ1d5zNnpacWDF</argument>
+      <argument>PUu9bttWKiAQCH53aMh2vY</argument>
       <argument>C:\wamp64\www\filrouge\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -3364,7 +3364,7 @@
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>dTQvuPdmbI</argument>
       <argument>0</argument>
-      <argument>6p4A-hOOuJ1d5zNnpacWDF</argument>
+      <argument>PUu9bttWKiAQCH53aMh2vY</argument>
       <argument>C:\wamp64\www\filrouge\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -3372,7 +3372,7 @@
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>84OoMvOGRs</argument>
       <argument>0</argument>
-      <argument>6p4A-hOOuJ1d5zNnpacWDF</argument>
+      <argument>PUu9bttWKiAQCH53aMh2vY</argument>
       <argument>C:\wamp64\www\filrouge\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -3380,7 +3380,7 @@
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>Rw5U+7CVvP</argument>
       <argument>0</argument>
-      <argument>6p4A-hOOuJ1d5zNnpacWDF</argument>
+      <argument>PUu9bttWKiAQCH53aMh2vY</argument>
       <argument>C:\wamp64\www\filrouge\var\cache\dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
