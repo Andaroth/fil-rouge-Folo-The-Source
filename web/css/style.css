@@ -14,31 +14,11 @@
 .textarea1 { min-height: 100px !important; }
 input[type=text], textarea { background-color: #fff !important; }
 /* Forcing */
-.media {
-  margin: 0 auto;
-}
-.carousel {
-  width: 100%;
-}
-.carousel img {
-  height: 300px;
-  width: 400px;
-}
-.media img, .media .videos, .media .musics {
-  text-align: center;
-  margin-bottom: 40px;
-}
-.videos iframe, .musics iframe {
-  width: 100%;
-  min-height: 300px;
-}
-/*.row .col {
-  margin-right: 5% !important;
-  width: 47.5% !important;
-}
-.row .col:nth-child(2n) {
-  margin-right: 0 !important;
-}*/
+.media { margin: 0 auto; }
+.carousel { width: 100%; }
+.carousel img { height: 300px; width: 400px; }
+.media img, .media .videos, .media .musics { text-align: center; margin-bottom: 40px; }
+.videos iframe, .musics iframe { width: 100%; min-height: 300px; }
 body { margin-top: 64px; }
 nav { position: fixed !important; top: 0; z-index: 255; }
 nav ul a:hover { background-color: rgba(255,255,255,.5); }
