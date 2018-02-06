@@ -16,11 +16,11 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_35f8edabe604fa602a04e38dbec25cb314fc4a77ba5701a272c39ba1db7dacb5 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_35f8edabe604fa602a04e38dbec25cb314fc4a77ba5701a272c39ba1db7dacb5->enter($__internal_35f8edabe604fa602a04e38dbec25cb314fc4a77ba5701a272c39ba1db7dacb5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
+        $__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58->enter($__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
 
-        $__internal_3d968fd26d7119bdf973dd597efb9fe3a6b1b4682ab0ff0abf6b7144ec9ef406 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3d968fd26d7119bdf973dd597efb9fe3a6b1b4682ab0ff0abf6b7144ec9ef406->enter($__internal_3d968fd26d7119bdf973dd597efb9fe3a6b1b4682ab0ff0abf6b7144ec9ef406_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
+        $__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097->enter($__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
 
         // line 1
         $this->loadTemplate("OChomePageBundle:Default:begin.html.twig", "OChomePageBundle:Default:events.html.twig", 1)->display($context);
@@ -33,21 +33,21 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
         // line 209
         $this->loadTemplate("OChomePageBundle:Default:end.html.twig", "OChomePageBundle:Default:events.html.twig", 209)->display($context);
         
-        $__internal_35f8edabe604fa602a04e38dbec25cb314fc4a77ba5701a272c39ba1db7dacb5->leave($__internal_35f8edabe604fa602a04e38dbec25cb314fc4a77ba5701a272c39ba1db7dacb5_prof);
+        $__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58->leave($__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58_prof);
 
         
-        $__internal_3d968fd26d7119bdf973dd597efb9fe3a6b1b4682ab0ff0abf6b7144ec9ef406->leave($__internal_3d968fd26d7119bdf973dd597efb9fe3a6b1b4682ab0ff0abf6b7144ec9ef406_prof);
+        $__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097->leave($__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_6eda71ea5132c0a8233622911cac2663c8276b549adb28ab3dc45d5a73a9d344 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6eda71ea5132c0a8233622911cac2663c8276b549adb28ab3dc45d5a73a9d344->enter($__internal_6eda71ea5132c0a8233622911cac2663c8276b549adb28ab3dc45d5a73a9d344_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30->enter($__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_68dfa6dffdc98fb726438a5964ce8df3bb0656bb27f7ae18ba53a6b71899864e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_68dfa6dffdc98fb726438a5964ce8df3bb0656bb27f7ae18ba53a6b71899864e->enter($__internal_68dfa6dffdc98fb726438a5964ce8df3bb0656bb27f7ae18ba53a6b71899864e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a->enter($__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "  <div class=\"orange darken-4 pt-25 pb-25\">
@@ -79,7 +79,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               
               <ul id=\"edit1\" class=\"dropdown-content\">
                
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
                 
@@ -108,7 +108,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit2\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit2\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -134,7 +134,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit3\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit3\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -160,7 +160,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit4\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit4\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -186,7 +186,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit5\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit5\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -212,7 +212,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit6\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit6\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -238,7 +238,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit7\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit7\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -272,17 +272,17 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           </form>
           <div class=\"row p-0 mb-0\">
             <a class=\"col s6 p-25 red center-align white-text\" onclick=\"\$('.modal').modal('close')\"><i class=\"material-icons\">cancel</i></a>
-            <a class=\"col s6 p-25 green center-align white-text\" href=\"#\"><i class=\"material-icons\">check</i></a>
+            <a class=\"col s6 p-25 green center-align white-text\" onclick=\"Materialize.toast('Terminé !', 4000);\$('.modal').modal('close')\"><i class=\"material-icons\">check</i></a>
           </div>
         </div>
     </div>
   </div>
 ";
         
-        $__internal_68dfa6dffdc98fb726438a5964ce8df3bb0656bb27f7ae18ba53a6b71899864e->leave($__internal_68dfa6dffdc98fb726438a5964ce8df3bb0656bb27f7ae18ba53a6b71899864e_prof);
+        $__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a->leave($__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a_prof);
 
         
-        $__internal_6eda71ea5132c0a8233622911cac2663c8276b549adb28ab3dc45d5a73a9d344->leave($__internal_6eda71ea5132c0a8233622911cac2663c8276b549adb28ab3dc45d5a73a9d344_prof);
+        $__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30->leave($__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30_prof);
 
     }
 
@@ -340,7 +340,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               
               <ul id=\"edit1\" class=\"dropdown-content\">
                
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
                 
@@ -366,7 +366,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit2\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit2\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -389,7 +389,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit3\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit3\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -412,7 +412,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit4\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit4\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -435,7 +435,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit5\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit5\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -458,7 +458,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit6\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit6\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -481,7 +481,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit7\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
               <ul id=\"edit7\" class=\"dropdown-content\">
-                <li><a href=\"#!\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
                 <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -512,7 +512,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           </form>
           <div class=\"row p-0 mb-0\">
             <a class=\"col s6 p-25 red center-align white-text\" onclick=\"\$('.modal').modal('close')\"><i class=\"material-icons\">cancel</i></a>
-            <a class=\"col s6 p-25 green center-align white-text\" href=\"#\"><i class=\"material-icons\">check</i></a>
+            <a class=\"col s6 p-25 green center-align white-text\" onclick=\"Materialize.toast('Terminé !', 4000);\$('.modal').modal('close')\"><i class=\"material-icons\">check</i></a>
           </div>
         </div>
     </div>

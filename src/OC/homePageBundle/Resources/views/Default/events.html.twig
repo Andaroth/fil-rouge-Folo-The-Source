@@ -27,7 +27,7 @@
               
               <ul id="edit1" class="dropdown-content">
                
-                <li><a href="#!" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
+                <li><a href="#addmodal" data-target="addmodal" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
                 
                 <li class="red"><a href="#!" class="black-text"><i class="material-icons">delete</i> Supprimer</a></li>
                 
@@ -53,7 +53,7 @@
                 <a class="deep-orange-text text-darken-4 dropdown" href="#" data-activates="edit2">Éditer <i class="tiny material-icons">expand_more</i></a>
               </div>
               <ul id="edit2" class="dropdown-content">
-                <li><a href="#!" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
+                <li><a href="#addmodal" data-target="addmodal" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
                 <li class="red"><a href="#!" class="black-text"><i class="material-icons">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -76,7 +76,7 @@
                 <a class="deep-orange-text text-darken-4 dropdown" href="#" data-activates="edit3">Éditer <i class="tiny material-icons">expand_more</i></a>
               </div>
               <ul id="edit3" class="dropdown-content">
-                <li><a href="#!" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
+                <li><a href="#addmodal" data-target="addmodal" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
                 <li class="red"><a href="#!" class="black-text"><i class="material-icons">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -99,7 +99,7 @@
                 <a class="deep-orange-text text-darken-4 dropdown" href="#" data-activates="edit4">Éditer <i class="tiny material-icons">expand_more</i></a>
               </div>
               <ul id="edit4" class="dropdown-content">
-                <li><a href="#!" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
+                <li><a href="#addmodal" data-target="addmodal" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
                 <li class="red"><a href="#!" class="black-text"><i class="material-icons">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -122,7 +122,7 @@
                 <a class="deep-orange-text text-darken-4 dropdown" href="#" data-activates="edit5">Éditer <i class="tiny material-icons">expand_more</i></a>
               </div>
               <ul id="edit5" class="dropdown-content">
-                <li><a href="#!" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
+                <li><a href="#addmodal" data-target="addmodal" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
                 <li class="red"><a href="#!" class="black-text"><i class="material-icons">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -145,7 +145,7 @@
                 <a class="deep-orange-text text-darken-4 dropdown" href="#" data-activates="edit6">Éditer <i class="tiny material-icons">expand_more</i></a>
               </div>
               <ul id="edit6" class="dropdown-content">
-                <li><a href="#!" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
+                <li><a href="#addmodal" data-target="addmodal" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
                 <li class="red"><a href="#!" class="black-text"><i class="material-icons">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -168,7 +168,7 @@
                 <a class="deep-orange-text text-darken-4 dropdown" href="#" data-activates="edit7">Éditer <i class="tiny material-icons">expand_more</i></a>
               </div>
               <ul id="edit7" class="dropdown-content">
-                <li><a href="#!" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
+                <li><a href="#addmodal" data-target="addmodal" class="modal-trigger black-text"><i class="material-icons">edit</i> Modifier</a></li>
                 <li class="red"><a href="#!" class="black-text"><i class="material-icons">delete</i> Supprimer</a></li>
               </ul>
             </div>
@@ -199,7 +199,7 @@
           </form>
           <div class="row p-0 mb-0">
             <a class="col s6 p-25 red center-align white-text" onclick="$('.modal').modal('close')"><i class="material-icons">cancel</i></a>
-            <a class="col s6 p-25 green center-align white-text" href="#"><i class="material-icons">check</i></a>
+            <a class="col s6 p-25 green center-align white-text" onclick="Materialize.toast('Terminé !', 4000);$('.modal').modal('close')"><i class="material-icons">check</i></a>
           </div>
         </div>
     </div>
