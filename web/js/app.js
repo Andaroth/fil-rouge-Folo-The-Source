@@ -4,7 +4,8 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.scrollspy').scrollSpy();
   $('.dropdown').dropdown({
-    constrainWidth: false
+    constrainWidth: false,
+    hover: true
   });
   $('.modal').modal();
 });
