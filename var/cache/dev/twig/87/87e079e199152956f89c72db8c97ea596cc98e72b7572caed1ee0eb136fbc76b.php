@@ -16,11 +16,11 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_861d8bc748a9414c25a59463394f34ac226a53cf688b3afae7bed6deeac3fd0c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_861d8bc748a9414c25a59463394f34ac226a53cf688b3afae7bed6deeac3fd0c->enter($__internal_861d8bc748a9414c25a59463394f34ac226a53cf688b3afae7bed6deeac3fd0c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
+        $__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58->enter($__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
 
-        $__internal_bfe1b1f8938d3be67de646c4e7aff455825978bc593f525aff783b5d6ac7e304 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bfe1b1f8938d3be67de646c4e7aff455825978bc593f525aff783b5d6ac7e304->enter($__internal_bfe1b1f8938d3be67de646c4e7aff455825978bc593f525aff783b5d6ac7e304_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
+        $__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097->enter($__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:events.html.twig"));
 
         // line 1
         $this->loadTemplate("OChomePageBundle:Default:begin.html.twig", "OChomePageBundle:Default:events.html.twig", 1)->display($context);
@@ -28,26 +28,26 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
         $this->loadTemplate("OChomePageBundle:Default:topbar.html.twig", "OChomePageBundle:Default:events.html.twig", 2)->display($context);
         // line 3
         $this->displayBlock('body', $context, $blocks);
-        // line 136
-        $this->loadTemplate("OChomePageBundle:Default:footer.html.twig", "OChomePageBundle:Default:events.html.twig", 136)->display($context);
-        // line 137
-        $this->loadTemplate("OChomePageBundle:Default:end.html.twig", "OChomePageBundle:Default:events.html.twig", 137)->display($context);
+        // line 208
+        $this->loadTemplate("OChomePageBundle:Default:footer.html.twig", "OChomePageBundle:Default:events.html.twig", 208)->display($context);
+        // line 209
+        $this->loadTemplate("OChomePageBundle:Default:end.html.twig", "OChomePageBundle:Default:events.html.twig", 209)->display($context);
         
-        $__internal_861d8bc748a9414c25a59463394f34ac226a53cf688b3afae7bed6deeac3fd0c->leave($__internal_861d8bc748a9414c25a59463394f34ac226a53cf688b3afae7bed6deeac3fd0c_prof);
+        $__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58->leave($__internal_1f03c4b7e294c8144675b38a7535414c6674734b835e898e7096467096daeb58_prof);
 
         
-        $__internal_bfe1b1f8938d3be67de646c4e7aff455825978bc593f525aff783b5d6ac7e304->leave($__internal_bfe1b1f8938d3be67de646c4e7aff455825978bc593f525aff783b5d6ac7e304_prof);
+        $__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097->leave($__internal_684170e38ad1d4bff8d9317b46214f473ed03aa706234aba30866d2947938097_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_3fcebdadb318fec5d9c430a79f7c795d9b34052d411dde4e45b461117b7b97e2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_3fcebdadb318fec5d9c430a79f7c795d9b34052d411dde4e45b461117b7b97e2->enter($__internal_3fcebdadb318fec5d9c430a79f7c795d9b34052d411dde4e45b461117b7b97e2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30->enter($__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_2b4337b8b8f83e35681ce929b58c545a9b60b1a95c4a2f0f6b7a1fb3c9434227 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2b4337b8b8f83e35681ce929b58c545a9b60b1a95c4a2f0f6b7a1fb3c9434227->enter($__internal_2b4337b8b8f83e35681ce929b58c545a9b60b1a95c4a2f0f6b7a1fb3c9434227_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a->enter($__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "  <div class=\"orange darken-4 pt-25 pb-25\">
@@ -67,9 +67,24 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <p><i>The Hexagon</i></p>
                 <p>Reading, United Kingdom</p>
               </div>
+              
               <div class=\"card-action\">
+               
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649409?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit1\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
+                
               </div>
+              
+              
+              <ul id=\"edit1\" class=\"dropdown-content\">
+               
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+                
+              </ul>
+              
             </div>
           </div>
         </div>
@@ -78,7 +93,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           <div class=\"card horizontal\">
             <div class=\"card-image\">
               <img src=\"";
-        // line 28
+        // line 43
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/sold_out.jpg"), "html", null, true);
         echo "\" class=\"mw-270\" alt=\"Wedgewood Rooms\">
             </div>
@@ -90,7 +105,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649408?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit2\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit2\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -99,7 +119,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           <div class=\"card horizontal\">
             <div class=\"card-image\">
               <img src=\"";
-        // line 46
+        // line 66
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/yum.jpg"), "html", null, true);
         echo "\" class=\"mw-270\" alt=\"The Junction\">
             </div>
@@ -111,7 +131,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649404?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit3\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit3\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -120,7 +145,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           <div class=\"card horizontal\">
             <div class=\"card-image\">
               <img src=\"";
-        // line 64
+        // line 89
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/glasgow.jpg"), "html", null, true);
         echo "\" class=\"mw-270\" alt=\"The Glasgow Royal Concert Hall\">
             </div>
@@ -132,7 +157,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649398?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit4\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit4\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -141,7 +171,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           <div class=\"card horizontal\">
             <div class=\"card-image\">
               <img src=\"";
-        // line 82
+        // line 112
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/palm.jpeg"), "html", null, true);
         echo "\" class=\"mw-270\" alt=\"Palm Camayenne\">
             </div>
@@ -153,7 +183,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/20167785?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit5\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit5\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -162,7 +197,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           <div class=\"card horizontal\">
             <div class=\"card-image\">
               <img src=\"";
-        // line 100
+        // line 135
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/arcadia.jpg"), "html", null, true);
         echo "\" class=\"mw-270\" alt=\"Arcadia Stage\">
             </div>
@@ -174,7 +209,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/18892417?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit6\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit6\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -183,7 +223,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
           <div class=\"card horizontal\">
             <div class=\"card-image\">
               <img src=\"";
-        // line 118
+        // line 158
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/guine.jpg"), "html", null, true);
         echo "\" class=\"mw-270\" alt=\"Festival des Arts Africains\">
             </div>
@@ -195,19 +235,54 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17652058?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit7\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit7\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
-
+        <div class=\"center-align\">
+          <a class=\"btn-floating btn-large waves-effect waves-light skyblue modal-trigger\" href=\"#addmodal\" data-target=\"addmodal\"><i class=\"material-icons\">add</i></a>
+        </div>
+        <div id=\"addmodal\" class=\"modal\">
+          <form class=\"row modal-content\">
+            <div class=\"col s12 m6\">
+              <img src=\"";
+        // line 183
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/placeholder-square.jpg"), "html", null, true);
+        echo "\" width=\"100%\" alt=\"insert media\">
+            </div>
+            <div class=\"col s12 m6\">
+              <input type=\"text\" placeholder=\"Titre\">
+              <input type=\"date\">
+              <textarea class=\"materialize-textarea\"></textarea>
+              <div class=\"file-field input-field\">
+                <div class=\"btn\">
+                  <span>File</span>
+                  <input type=\"file\">
+                </div>
+                <div class=\"file-path-wrapper\">
+                  <input class=\"file-path validate\" type=\"text\">
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class=\"row p-0 mb-0\">
+            <a class=\"col s6 p-25 red center-align white-text\" onclick=\"\$('.modal').modal('close')\"><i class=\"material-icons\">cancel</i></a>
+            <a class=\"col s6 p-25 green center-align white-text\" onclick=\"Materialize.toast('Terminé !', 4000);\$('.modal').modal('close')\"><i class=\"material-icons\">check</i></a>
+          </div>
+        </div>
     </div>
   </div>
 ";
         
-        $__internal_2b4337b8b8f83e35681ce929b58c545a9b60b1a95c4a2f0f6b7a1fb3c9434227->leave($__internal_2b4337b8b8f83e35681ce929b58c545a9b60b1a95c4a2f0f6b7a1fb3c9434227_prof);
+        $__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a->leave($__internal_146a0ff70e3e93f06acbcfabed96e312de13aeb5ede6c35713cb565db4ccc99a_prof);
 
         
-        $__internal_3fcebdadb318fec5d9c430a79f7c795d9b34052d411dde4e45b461117b7b97e2->leave($__internal_3fcebdadb318fec5d9c430a79f7c795d9b34052d411dde4e45b461117b7b97e2_prof);
+        $__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30->leave($__internal_fba715fbef0305949af40d53e2a9b3809c68d2e44f5e70e469c54fdddb15fd30_prof);
 
     }
 
@@ -223,7 +298,7 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
 
     public function getDebugInfo()
     {
-        return array (  187 => 118,  166 => 100,  145 => 82,  124 => 64,  103 => 46,  82 => 28,  61 => 10,  53 => 4,  44 => 3,  34 => 137,  32 => 136,  30 => 3,  28 => 2,  26 => 1,);
+        return array (  255 => 183,  227 => 158,  201 => 135,  175 => 112,  149 => 89,  123 => 66,  97 => 43,  61 => 10,  53 => 4,  44 => 3,  34 => 209,  32 => 208,  30 => 3,  28 => 2,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -253,9 +328,24 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
                 <p><i>The Hexagon</i></p>
                 <p>Reading, United Kingdom</p>
               </div>
+              
               <div class=\"card-action\">
+               
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649409?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit1\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
+                
               </div>
+              
+              
+              <ul id=\"edit1\" class=\"dropdown-content\">
+               
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+                
+              </ul>
+              
             </div>
           </div>
         </div>
@@ -273,7 +363,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649408?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit2\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit2\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -291,7 +386,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649404?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit3\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit3\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -309,7 +409,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17649398?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit4\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit4\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -327,7 +432,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/20167785?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit5\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit5\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -345,7 +455,12 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/18892417?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit6\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit6\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -363,15 +478,47 @@ class __TwigTemplate_6ae2b2346bcb49ba86339179748b1caacf8c8dccfbdf46993a6ecbcf6f0
               </div>
               <div class=\"card-action\">
                 <a class=\"deep-orange-text text-darken-4\" href=\"https://www.bandsintown.com/e/17652058?app_id=js_folothesource.com&came_from=242&affiliate_code=js_folothesource.com\" target=\"_blank\">Plus d'info</a>
+                <a class=\"deep-orange-text text-darken-4 dropdown\" href=\"#\" data-activates=\"edit7\">Éditer <i class=\"tiny material-icons\">expand_more</i></a>
               </div>
+              <ul id=\"edit7\" class=\"dropdown-content\">
+                <li><a href=\"#addmodal\" data-target=\"addmodal\" class=\"modal-trigger black-text\"><i class=\"material-icons\">edit</i> Modifier</a></li>
+                <li class=\"red\"><a href=\"#!\" class=\"black-text\"><i class=\"material-icons\">delete</i> Supprimer</a></li>
+              </ul>
             </div>
           </div>
         </div>
-
+        <div class=\"center-align\">
+          <a class=\"btn-floating btn-large waves-effect waves-light skyblue modal-trigger\" href=\"#addmodal\" data-target=\"addmodal\"><i class=\"material-icons\">add</i></a>
+        </div>
+        <div id=\"addmodal\" class=\"modal\">
+          <form class=\"row modal-content\">
+            <div class=\"col s12 m6\">
+              <img src=\"{{ asset('img/placeholder-square.jpg') }}\" width=\"100%\" alt=\"insert media\">
+            </div>
+            <div class=\"col s12 m6\">
+              <input type=\"text\" placeholder=\"Titre\">
+              <input type=\"date\">
+              <textarea class=\"materialize-textarea\"></textarea>
+              <div class=\"file-field input-field\">
+                <div class=\"btn\">
+                  <span>File</span>
+                  <input type=\"file\">
+                </div>
+                <div class=\"file-path-wrapper\">
+                  <input class=\"file-path validate\" type=\"text\">
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class=\"row p-0 mb-0\">
+            <a class=\"col s6 p-25 red center-align white-text\" onclick=\"\$('.modal').modal('close')\"><i class=\"material-icons\">cancel</i></a>
+            <a class=\"col s6 p-25 green center-align white-text\" onclick=\"Materialize.toast('Terminé !', 4000);\$('.modal').modal('close')\"><i class=\"material-icons\">check</i></a>
+          </div>
+        </div>
     </div>
   </div>
 {% endblock %}
 {% include 'OChomePageBundle:Default:footer.html.twig' %}
-{% include 'OChomePageBundle:Default:end.html.twig' %}", "OChomePageBundle:Default:events.html.twig", "C:\\wamp64\\www\\Symfony\\src\\OC\\homePageBundle/Resources/views/Default/events.html.twig");
+{% include 'OChomePageBundle:Default:end.html.twig' %}", "OChomePageBundle:Default:events.html.twig", "C:\\wamp64\\www\\filrouge\\src\\OC\\homePageBundle/Resources/views/Default/events.html.twig");
     }
 }

@@ -16,11 +16,11 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_77a78422bd82e2d98544c55c384c0627b210e7c3b9add59aefe052e288799a4f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_77a78422bd82e2d98544c55c384c0627b210e7c3b9add59aefe052e288799a4f->enter($__internal_77a78422bd82e2d98544c55c384c0627b210e7c3b9add59aefe052e288799a4f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:index.html.twig"));
+        $__internal_3477a462cc94073860ba71c8267eab7671db17a3391dce07e26cc8b8d14978da = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_3477a462cc94073860ba71c8267eab7671db17a3391dce07e26cc8b8d14978da->enter($__internal_3477a462cc94073860ba71c8267eab7671db17a3391dce07e26cc8b8d14978da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:index.html.twig"));
 
-        $__internal_6cebec61045b388104b435dbcc12118edfc9b758c5af53cc2a1da2424b0b800f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6cebec61045b388104b435dbcc12118edfc9b758c5af53cc2a1da2424b0b800f->enter($__internal_6cebec61045b388104b435dbcc12118edfc9b758c5af53cc2a1da2424b0b800f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:index.html.twig"));
+        $__internal_f70a007cfe3753b63ac3fa47253d3e0cabeba177d054bb51c1cd8ee255a7c7ed = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f70a007cfe3753b63ac3fa47253d3e0cabeba177d054bb51c1cd8ee255a7c7ed->enter($__internal_f70a007cfe3753b63ac3fa47253d3e0cabeba177d054bb51c1cd8ee255a7c7ed_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OChomePageBundle:Default:index.html.twig"));
 
         // line 1
         $this->loadTemplate("OChomePageBundle:Default:begin.html.twig", "OChomePageBundle:Default:index.html.twig", 1)->display($context);
@@ -33,21 +33,21 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
         // line 180
         $this->loadTemplate("OChomePageBundle:Default:end.html.twig", "OChomePageBundle:Default:index.html.twig", 180)->display($context);
         
-        $__internal_77a78422bd82e2d98544c55c384c0627b210e7c3b9add59aefe052e288799a4f->leave($__internal_77a78422bd82e2d98544c55c384c0627b210e7c3b9add59aefe052e288799a4f_prof);
+        $__internal_3477a462cc94073860ba71c8267eab7671db17a3391dce07e26cc8b8d14978da->leave($__internal_3477a462cc94073860ba71c8267eab7671db17a3391dce07e26cc8b8d14978da_prof);
 
         
-        $__internal_6cebec61045b388104b435dbcc12118edfc9b758c5af53cc2a1da2424b0b800f->leave($__internal_6cebec61045b388104b435dbcc12118edfc9b758c5af53cc2a1da2424b0b800f_prof);
+        $__internal_f70a007cfe3753b63ac3fa47253d3e0cabeba177d054bb51c1cd8ee255a7c7ed->leave($__internal_f70a007cfe3753b63ac3fa47253d3e0cabeba177d054bb51c1cd8ee255a7c7ed_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_17eaba536a1a746a3fd847b89f1a25823bf2e9245f397f226f724ee5027a4d9b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_17eaba536a1a746a3fd847b89f1a25823bf2e9245f397f226f724ee5027a4d9b->enter($__internal_17eaba536a1a746a3fd847b89f1a25823bf2e9245f397f226f724ee5027a4d9b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_750abc0de0dc96114822414c50ac3b3124d099094a4e417cda2f2f04dbca5548 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_750abc0de0dc96114822414c50ac3b3124d099094a4e417cda2f2f04dbca5548->enter($__internal_750abc0de0dc96114822414c50ac3b3124d099094a4e417cda2f2f04dbca5548_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_191994cf9017f27405395b9df0be1245dbb4f836f0dbe483178ad5d82e38e17c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_191994cf9017f27405395b9df0be1245dbb4f836f0dbe483178ad5d82e38e17c->enter($__internal_191994cf9017f27405395b9df0be1245dbb4f836f0dbe483178ad5d82e38e17c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_55d7d27bf616f430030e3f709f8b2704e0a68d5d53de4077de2ce7b639a88035 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_55d7d27bf616f430030e3f709f8b2704e0a68d5d53de4077de2ce7b639a88035->enter($__internal_55d7d27bf616f430030e3f709f8b2704e0a68d5d53de4077de2ce7b639a88035_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "  <div class=\"row\">
@@ -209,7 +209,7 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
               <p>Our actions in Guinea in pictures.</p>
             </div>
             <div class=\"card-action\">
-              <a href=\"gallery.php\">More Pictures</a>
+              <a href=\"./gallery\">More Pictures</a>
             </div>
           </div>
         </div>
@@ -228,7 +228,7 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
               <p>Some music from our Youtube account.</p>
             </div>
             <div class=\"card-action\">
-              <a href=\"gallery.php\">More Musics</a>
+              <a href=\"./gallery\">More Musics</a>
             </div>
           </div>
         </div>
@@ -247,7 +247,7 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
               <p>What we have done in Guinea.</p>
             </div>
             <div class=\"card-action\">
-              <a href=\"gallery.php\">More Videos</a>
+              <a href=\"./gallery\">More Videos</a>
             </div>
           </div>
         </div>
@@ -256,10 +256,10 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
   </div>
 ";
         
-        $__internal_191994cf9017f27405395b9df0be1245dbb4f836f0dbe483178ad5d82e38e17c->leave($__internal_191994cf9017f27405395b9df0be1245dbb4f836f0dbe483178ad5d82e38e17c_prof);
+        $__internal_55d7d27bf616f430030e3f709f8b2704e0a68d5d53de4077de2ce7b639a88035->leave($__internal_55d7d27bf616f430030e3f709f8b2704e0a68d5d53de4077de2ce7b639a88035_prof);
 
         
-        $__internal_17eaba536a1a746a3fd847b89f1a25823bf2e9245f397f226f724ee5027a4d9b->leave($__internal_17eaba536a1a746a3fd847b89f1a25823bf2e9245f397f226f724ee5027a4d9b_prof);
+        $__internal_750abc0de0dc96114822414c50ac3b3124d099094a4e417cda2f2f04dbca5548->leave($__internal_750abc0de0dc96114822414c50ac3b3124d099094a4e417cda2f2f04dbca5548_prof);
 
     }
 
@@ -426,7 +426,7 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
               <p>Our actions in Guinea in pictures.</p>
             </div>
             <div class=\"card-action\">
-              <a href=\"gallery.php\">More Pictures</a>
+              <a href=\"./gallery\">More Pictures</a>
             </div>
           </div>
         </div>
@@ -442,7 +442,7 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
               <p>Some music from our Youtube account.</p>
             </div>
             <div class=\"card-action\">
-              <a href=\"gallery.php\">More Musics</a>
+              <a href=\"./gallery\">More Musics</a>
             </div>
           </div>
         </div>
@@ -458,7 +458,7 @@ class __TwigTemplate_f76dcedf5b67713fd610c2cf4ff7d051dc0012205e6ea241b95364e270b
               <p>What we have done in Guinea.</p>
             </div>
             <div class=\"card-action\">
-              <a href=\"gallery.php\">More Videos</a>
+              <a href=\"./gallery\">More Videos</a>
             </div>
           </div>
         </div>
