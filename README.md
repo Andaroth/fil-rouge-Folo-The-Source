@@ -62,6 +62,12 @@ __________
 * Axel Fiolle : index + contact page
 * Ilias Chergui : multimedia + gallery + maquette
 
+### Avis/conseils client
+
+Le contenu général du site est très dense, il pourrait être condensé pour rester sur l'essentiel. Néanmoins, le projet s'est avéré être très intéressant : c'est une belle initiative de N'Faly Kouyate. 
+Cela sert une cause louable et donne envie de travailler dessus volontier. 
+Il ressort également que le client devrait réviser sa charte graphique et son identité visuelle, il devrait également penser à se créer un logo représentatif. 
+
 ### Ressenti sur le travail de groupe
 
 #### Ilias
