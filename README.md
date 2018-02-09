@@ -62,6 +62,40 @@ __________
 * Axel Fiolle : index + contact page
 * Ilias Chergui : multimedia + gallery + maquette
 
-à completer
+### Ressenti sur le travail de groupe
+
+#### Ilias
+
+Ce que j'ai particulièrement aimé c'est d'avoir eu une team active. J'entends par là que chaque membre apportait des idées ou prennait des initiatives constructives. Grâce à quoi, le travail a rapidement été terminé.
+Très bien organisé, on a pu avoir une quantité de travail plus ou moins égale en therme de difficulté et de contenu.
+
+#### Laureen
+
+Pour ma part, le projet s'est très bien déroulé, les exigences du client ont été respectées et les tâches au sein de l'équipe ont été bien réparties.
+Nous avons pu travailler sur des nouvelles technologies, comme l'utilisation de Materialize et de Symfony.
+Materialize était un framework que je voulais utilisé, quand à Symphony j'ai pu découvrir son fonctionnement global.
+Le fait d'avoir utilisé Materialize nous a fait gagner beaucoup de temps sur plusieurs étapes du projet, c'était un choix très judicieux de la part de Axel, qui a très bien coordonné le projet.
+
+#### Axel
+
+J'ai apprécié ce travail de groupe. Grâce à notre initiative d'utiliser Materialize, l'intégration front-end était on ne peut plus simple et mes collègues de groupe ont pu apprendre de nouvelles choses. 
+L'installation du projet dans Symfony (3) m'a permi de pratiquer, pratiquer, pratiquer. C'était très enrichissant. Nous n'avons pas eu trop de mal à chacun l'installer (git pull n'étant pas suffisant puisque le cache est en gitignore), je pense que cela aura été un minimum instructif pour tous les membres de la team. 
+Nous étions bien organisé, je crois qu'aucun de nous n'a eu l'impression de faire tout le travail. Je ne pourrais le jurer mais je pense que la communication et le workflow étaient très bons. 
+
+### Ressenti personnel
+
+#### Ilias 
+
+Je ne sais pas trop quoi dire, si ce n'est de relire ce qui a été dit en Point 3.. Encore une bonne chose à rajouter: j'ai pu découvrir un framework php qui patientait sur ma liste d'apprentissage.
+
+#### Laureen
+
+Par rapport aux épreuves rencontrées, je dirais que le plus grand challenge était de monter le projet avec Symfonie. Cela a demandé un peu de temps à mettre en place, au niveau environnement de travail et au niveau apprentissage.
+
+#### Axel
+
+Une fois de plus, je me suis senti dans mon élément en tant que gestionnaire de projet. Les objectifs principaux ont été atteints, ainsi que celui de s'améliorer et d'apprendre. 
+Je crois que tout le monde était à l'aise dans ce travail de groupe. Je n'ai pas encore eu le temps de prendre les doléances comme il le fallait mais j'ai bien demandé l'avis de chacun tout au long du projet, et il en ressortait que tout allait bien. 
+J'ai fait de mon mieux pour que le travail soit clair pour chacun, en prenant garde à inviter tout le monde à poser des questions ou s'exprimer si il y avait le moindre problème. 
 
 __________
