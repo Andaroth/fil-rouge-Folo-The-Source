@@ -104,4 +104,5 @@ Une fois de plus, je me suis senti dans mon élément en tant que gestionnaire d
 Je crois que tout le monde était à l'aise dans ce travail de groupe. Je n'ai pas encore eu le temps de prendre les doléances comme il le fallait mais j'ai bien demandé l'avis de chacun tout au long du projet, et il en ressortait que tout allait bien. 
 J'ai fait de mon mieux pour que le travail soit clair pour chacun, en prenant garde à inviter tout le monde à poser des questions ou s'exprimer si il y avait le moindre problème. 
 
+[Projet en ligne](https://axelfiolle.be/folothesource/fil-rouge-Folo-The-Source/web/)
 __________
